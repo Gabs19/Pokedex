@@ -51,9 +51,6 @@ pokemon_lista = [
 'Nome' : "Blastoise", 'Tipo' : "Água", 
 'Peso' :  85.5, 'Altura': 1.6 , 
 'Descricao' : "Pokemon Concha",
-'Info' : "Os jatos de água que jorra dos canhões de foguetes em sua concha podem perfurar aço espesso" },
-
-{'ID' : 10, 
 'Nome' : "Caterpie", 'Tipo' : "Inseto", 
 'Peso' :  2.9, 'Altura': 0.3 , 
 'Descricao' : "Pokemon Lagarta",
@@ -90,13 +87,6 @@ pokemon_lista = [
 'Info' : "Seu melhor ataque envolve voar em alta velocidade, golpear com agulhas de veneno e depois voar"}
 
 ]
-cont = 1
-#Imprimindo o nome dos pokemon
-for i in pokemon_lista:
-    if cont < 10:
-        print(f'#00{cont} - {i["Nome"]}')
-    elif cont < 100:
-        print(f'#0{cont} - {i["Nome"]}')
-    else:
-        print(f'#{cont} - {i["Nome"]}')
-    cont+=1
+
+for id_pokemon, pokemon in enumerate(pokemon_lista):
+    print(f'#{id_pokemon:0>3} - {pokemon["Nome"]}')
