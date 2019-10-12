@@ -56,31 +56,31 @@ pokemon_lista = [
 'Descricao' : "Pokemon Lagarta",
 'Info' : "Ele libera um fedor de sua antena vermelha para repelir os inimigos. Cresce mudando repetidamente" },
 
-{'ID' : 11, 
+{'ID' : 10, 
 'Nome' : "Metapode", 'Tipo' : "Inseto", 
 'Peso' :  9.9, 'Altura': 0.7 , 
 'Descricao' : "Pokemon Crisálida",
 'Info' : "Uma concha de aço duro protege seu corpo sensível. Ele silenciosamente suporta dificuldades enquanto aguarda a evolução" },
 
-{'ID' : 12,
+{'ID' : 11,
 'Nome' : "Butterfree", 'Tipo' : "Inseto/Voador",
 'Peso' : 32, 'Altura' : 1.1,
 'Descricao' : "Pokemon Borboleta",
 'Info' : "Ele Adora o mel das flores e pode localizar manchas de flores que possuem quantidades minúsculas de pólen"},
 
-{'ID' : 13,
+{'ID' : 12,
 'Nome' : "Weedle", 'Tipo' : "Inseto/Venenoso",
 'Peso' : 3.2, 'Altura' : 0.3,
 'Descricao' : "Pokemon Lagarta Peluda",
 'Info' : 'Come seu peso nas folhas todos os dias. Afasta os atacantes com a agulha na cabeça'},
 
-{'ID' : 14,
+{'ID' : 13,
 'Nome' : "Kakuna", 'Tipo' : "Inseto/Venenoso",
 'Peso' : 10, 'Altura' : 0.6,
 'Descricao' : "Pokemon Pupa",
 'Info' : "Enquanto aguarda a evolução, esconde-se de predadores sob folhas e em recantos de galhos"},
 
-{'ID' : 15,
+{'ID' : 14,
 'Nome' : "Beedrill", 'Tipo' : "Inseto/Venenoso",
 'Peso' : 29.5, 'Altura' : 1,
 'Descricao' : "Pokemon Abelha venenosa",
@@ -88,5 +88,6 @@ pokemon_lista = [
 
 ]
 
+
 for id_pokemon, pokemon in enumerate(pokemon_lista):
-    print(f'#{id_pokemon:0>3} - {pokemon["Nome"]}')
+         print(f'#{id_pokemon + 1:0>3} - {pokemon["Nome"]}')
