@@ -8,23 +8,23 @@ class Application:
         layout_superior = Label(root, text = '------- Pokedex -------')
         layout_superior.pack(side = TOP, expand = False, fill = 'x')
 
-        listagem_pokemon = Listbox()
-        listagem_pokemon.configure(relief = 'groove', border = 10, font = 'Times 12 bold')
-        listagem_pokemon.pack(side = LEFT, expand = False, fill = 'both')
+        listagem_pokemon = Listbox() #div usada para alocar a lista dos nomes e id dos pokemons
+        listagem_pokemon.configure(relief = 'groove', border = 10, font = 'Times 12 bold') #configuraçõa de borda de fonte da div e os elemntos dentro dela
+        listagem_pokemon.pack(side = LEFT, expand = False, fill = 'both') #localidade, expansão onde a div foi colocada
 
-        div_1 = Scrollbar()
-        div_1.pack(side = RIGHT,fill = 'y')
-        div_1.configure(command = listagem_pokemon.yview)
-        listagem_pokemon.configure(yscrollcommand = div_1.set)
+        div_1 = Scrollbar() #metedo de barra de rolagem
+        div_1.pack(side = RIGHT,fill = 'y') #posição que foi inserido
+        div_1.configure(command = listagem_pokemon.yview) #Ligado a div de listagem de pokemon
+        listagem_pokemon.configure(yscrollcommand = div_1.set) #sentido da rolagem
 
         div_2 = Canvas(bg = "black")
         div_2.pack()
         div_2['width'] = 300
         div_2['height'] = 150
-        img = PhotoImage(file = "C://Users//Gabriel//Desktop//IFPE - ADS//projeto//Pokedex//mapa.png")
+        img = PhotoImage(file = "mapa.png")
         div_2.create_image(0,0, image = img ,anchor = NW)
 
-        for id_pokemon, pokemon in enumerate(pokemon_lista):
+        for id_pokemon, pokemon in enumerate(pokemon_lista): #laço para gerar ordenar os nome e id dos pokemon
             texto = f'#{id_pokemon + 1:0>3}  -  {pokemon["Nome"]}'
             listagem_pokemon.insert(END,texto)
 
