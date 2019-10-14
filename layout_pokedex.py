@@ -6,7 +6,7 @@ root = Tk()
 class Application:
     def __init__(self,master=None):
         layout_superior = Label(root, text = '------- Pokedex -------')
-        layout_superior.configure(bg = '#87CEFA')
+        layout_superior.configure(bg = 'red')
         layout_superior.pack(side = TOP, expand = False, fill = 'x')
 
         listagem_pokemon = Listbox() #div usada para alocar a lista dos nomes e id dos pokemons
