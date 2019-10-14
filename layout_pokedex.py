@@ -8,7 +8,7 @@ class Application:
     
     def __init__(self,master=None):
         layout_superior = Label(root, text = '------- Pokedex -------')
-        layout_superior.configure(bg = 'red')
+        layout_superior.configure(bg = 'blue') #cor da label superior
         layout_superior.pack(side = TOP, expand = False, fill = 'x')
 
         listagem_pokemon = Listbox(root, selectmode = SINGLE) #div usada para alocar a lista dos nomes e id dos pokemons
@@ -19,10 +19,6 @@ class Application:
             w = listagem_pokemon.widget
             index = int(w.curselection()[0])
             print(index) 
-
-           if index in pokemon_lista:
-               print('ok')
-
             for index in pokemon_lista:
                 if index['ID'] == 0:
                     print(TRUE)
