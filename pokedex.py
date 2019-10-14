@@ -148,7 +148,13 @@ pokemon_lista = [
 'Nome' : "Pikachu", 'Tipo' : "Elétrico",
 'Peso' : 6, 'Altura' : 0.4,
 'Descricao' : "Pokemon rato elétrico",
-'Info' : "Ocasionalmente, usa um choque elétrico para recarregar um companheiro Pikachu que está em um estado enfraquecido"}
+'Info' : "Ocasionalmente, usa um choque elétrico para recarregar um companheiro Pikachu que está em um estado enfraquecido"},
+
+{'ID' : 26,
+'Nome' : "Raichu", 'Tipo' : "Elétrico",
+'Peso' : 30, 'Altura' : 0.8,
+'Descricao' : "Pokemon rato elétrico",
+'Info' : "Sua cauda descarrega eletricidade no chão, protegendo-a de ficar chocada"}
 ]
 
 
