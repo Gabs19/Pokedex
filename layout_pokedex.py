@@ -8,7 +8,7 @@ class Application:
     
     def __init__(self,master=None):
         layout_superior = Label(root, text = '------- Pokedex -------')
-        layout_superior.configure(bg = 'red') #cor da label superior
+        layout_superior.configure(bg = 'blue') #cor da label superior
         layout_superior.pack(side = TOP, expand = False, fill = 'x')
 
         listagem_pokemon = Listbox(root, selectmode = SINGLE) #div usada para alocar a lista dos nomes e id dos pokemons
@@ -30,9 +30,6 @@ class Application:
                 else:
                     print(False)
                     break
-            
-
-                
 
         div_1 = Scrollbar() #metedo de barra de rolagem
         div_1.pack(side = RIGHT,fill = 'y') #posição que foi inserido
@@ -79,11 +76,6 @@ class Application:
 
         # button_teste = Button(text = "Ver mais", command = clicado)
         # button_teste.pack(side = BOTTOM)
-
-      
-
-
-
 
 root.geometry("360x520+10+10")
 Application(root)
