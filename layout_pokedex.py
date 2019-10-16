@@ -45,7 +45,7 @@ class Application:
         div_2.create_image(0,0, image = img ,anchor = NW)
 
 
-        tipo, peso, altura = pega_POKEMON()
+        tipo, peso, altura = ()
 
         div_3 = Label(text = "Tipo : ")
         div_3.configure(font = 'times 18 italic')
