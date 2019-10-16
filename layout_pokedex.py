@@ -3,7 +3,6 @@ from pokedex import pokemon_lista
 from PIL import Image,ImageTk
 root = Tk()
 
-
 class Application:
     
     def __init__(self,master=None):
