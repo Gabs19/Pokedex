@@ -159,8 +159,8 @@ pokemon_lista = [
 {'ID' : 27,
 'Nome' : "Sandshrew", 'Tipo' : "Terra",
 'Peso' : 12, 'Altura' : 0.6,
-'Descricao' : "Pokemon Rato"
-'Info' : "Cava tocas profundas para viver. Quando em perigo, enrola o corpo para resistir a ataques."},
+'Descricao' : "Pokemon Rato",
+'Info' :"Cava tocas profundas para viver. Quando em perigo, enrola o corpo para resistir a ataques"},
 
 {'ID' : 28,
 'Nome' : "Sandslash", 'Tipo' : "Terra",
@@ -211,7 +211,7 @@ pokemon_lista = [
 'Info' : "Nas noites de lua cheia, Clefairy se reúne e dança. Tomar banho ao luar os faz flutuar"},
 
 {'ID' : 36,
-'Nome ' : "Clefable", 'Tipo' : "Fada",
+'Nome' : "Clefable", 'Tipo' : "Fada",
 'Peso' : 40, 'Altura' : 1.3,
 'Descricao' : "Pokemon Fada",
 'Info' : "Seus ouvidos são sensíveis o suficiente para ouvir um alfinete cair a mais de um quilômetro de distância, então geralmente são encontrados em locais calmos"},
@@ -259,7 +259,7 @@ pokemon_lista = [
 'Info' : "Costuma plantar os pés de raiz no chão durante o dia e semeia sementes enquanto caminha à noite"},
 
 {'ID' : 44,
-'Nome' : "Gloom" : 'Tipo' : "Grama/Venenoso",
+'Nome' : "Gloom", 'Tipo' : "Grama/Venenoso",
 'Peso' : 8.6, 'Altura' : 0.8,
 'Descricao' : "Pokemon Erva",
 'Info' : "O mel que escorre da boca cheira tão atroz que pode enrolar o nariz a mais de um quilômetro de distância"},
@@ -299,8 +299,6 @@ pokemon_lista = [
 'Peso' : 0.8, 'Altura' : 0.2,
 'Descricao' : "Pokemon Toupeira",
 'Info' : "Um Pokémon que vive no subsolo. Por causa de seu habitat escuro, é repelido pela luz do sol"},
-
-{}
 ]
 
 
