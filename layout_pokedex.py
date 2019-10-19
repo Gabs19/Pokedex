@@ -1,6 +1,8 @@
 from tkinter import *
+import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
+
 root = Tk()
 
 class Application:
@@ -20,8 +22,12 @@ class Application:
             peso_pokemon = f'{pokemon_lista[index]["Peso"]} kg'
             peso["text"] = str(peso_pokemon)
 
+            render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
+            img["image"] = render
+            img.image = render
+
         layout_superior = Label(root, text = '------- Pokedex -------')
-        layout_superior.configure(bg = 'blue') #cor da label superior
+        layout_superior.configure(bg = 'red') #cor da label superior
         layout_superior.pack(side = TOP, expand = False, fill = 'x')
 
         listagem_pokemon = Listbox(root, selectmode = SINGLE) #div usada para alocar a lista dos nomes e id dos pokemons
@@ -38,38 +44,47 @@ class Application:
             texto = f'#{id_pokemon + 1:0>3}  -  {pokemon["Nome"]}' #variavel onde é armazenado o id e o nome dos pokemon pelo laço
             listagem_pokemon.insert(END,texto) #metodo que insere esses dados na div
 
+        div_3 = Label(text = 'Tipo:' )
+        div_3.configure(font = 'times 18 bold')
+        div_3.place(x = 270, y = 30)
+
+        tipo = Label(text = "??????/?????")
+        tipo.configure(font = 'times 12 bold')
+        tipo.place(x = 340, y = 35)
+
+        div_4 = Label(text = "Peso:")
+        div_4.configure(font = 'times 18 bold')
+        div_4.place(x = 270, y = 60)
+
+        peso = Label(text = "?????????")
+        peso.configure(font = 'times 12 bold')
+        peso.place(x = 340, y = 65)
+
+        div_5 = Label(text = "Altura:")
+        div_5.configure(font = 'times 18 bold')
+        div_5.place(x = 270, y = 90)
+
+        altura = Label(text = "???????")
+        altura.configure(font = 'times 12 bold')
+        altura.place(x = 370, y = 95)
+        
         load = Image.open("mapa.png")
         render = ImageTk.PhotoImage(load) 
         img = Label(image = render)
         img.image = render
-        img.pack(side = TOP)
-        img["width"] = 210
-        img["height"] = 150
+        img.place(x = 174, y = 30)
+        img["width"] = 80
+        img["height"] = 80
 
-        div_3 = Label(text = 'Tipo:' )
-        div_3.configure(font = 'times 18 bold')
-        div_3.place(x = 173, y = 173)
+        img = Label(image = "")
+        img.place(x = 174 , y = 30)
 
-        tipo = Label(text = "------")
-        tipo.configure(font = 'times 12 bold')
-        tipo.place(x = 260, y = 178)
+        div_6 = Label(text = "---- Dados -----")
+        div_6.configure(bg = 'red')
+        div_6.place(x = 174, y = 140)
+        
 
-        div_4 = Label(text = "Peso:")
-        div_4.configure(font = 'times 18 bold')
-        div_4.place(x = 173, y = 200)
 
-        peso = Label(text = "------")
-        peso.configure(font = 'times 12 bold')
-        peso.place(x = 260, y = 200)
-
-        div_5 = Label(text = "Altura:")
-        div_5.configure(font = 'times 18 bold')
-        div_5.place(x = 173, y = 227)
-
-        altura = Label(text = "------")
-        altura.configure(font = 'times 12 bold')
-        altura.place(x = 260, y = 230)
-
-root.geometry("400x520+10+10")
+root.geometry("500x520+10+10")
 Application(root)
 root.mainloop()
