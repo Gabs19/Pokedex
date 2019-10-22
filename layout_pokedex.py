@@ -9,15 +9,16 @@ class Application:
     
     def __init__(self,master=None):
 
-        def pega_POKEMON(listagem_pokemon):
-            pokemon = listagem_pokemon.widget
-            index = int(pokemon.curselection()[0])
+        def pega_POKEMON(listagem_pokemon): #função que executada ao clicar em um elemento da listbox com botão direito do mouse
+            pokemon = listagem_pokemon.widget #selecionando o widget da listBox para selecionar um item apenas
+            index = int(pokemon.curselection()[0]) #função index utilizada para pegar o index e comparar com a da lista de pokemon
 
 
-            tipo_pokemon_1 = f'{pokemon_lista[index]["Tipo_1"]}'
-            tipo["text"] = str(tipo_pokemon_1)
+            tipo_pokemon_1 = f'{pokemon_lista[index]["Tipo_1"]}' #Varivel onde está guardado a formatação do index pego pelo bind na listbox
+            tipo["text"] = str(tipo_pokemon_1) #Substituição do valor no tipo que é apresentado na tela dinamicamente
 
 
+            #estrututas de repetições que colocam cores respectivamente ao tipo do pokemon
             if tipo_pokemon_1 == 'Fogo':
                 tipo["bg"] = '#ED6D12'
             
@@ -76,8 +77,9 @@ class Application:
             tipo_secundario["text"] = str(tipo_pokemon_2)
 
             if tipo_pokemon_2 == "":
-                tipo_secundario["bg"] = 'blue'
-
+                tipo_secundario["bg"] = 'white'
+            
+            #
             elif tipo_pokemon_2 != "":
 
                 if tipo_pokemon_2 == 'Fogo':
@@ -134,19 +136,19 @@ class Application:
                 elif tipo_pokemon_2 == 'Fada':
                     tipo_secundario["bg"] = '#e87890'
 
-            altura_pokemon = f'{pokemon_lista[index]["Altura"]} m'
-            altura["text"] = str(altura_pokemon)
+            #Troca dinamicamente as dados dos pokemon a cada item selecionado
+            nome["text"] = str(f'{pokemon_lista[index]["Nome"]}')
+            altura["text"] = str(f'{pokemon_lista[index]["Altura"]} m')
+            peso["text"] = str(f'{pokemon_lista[index]["Peso"]} kg')
 
-            peso_pokemon = f'{pokemon_lista[index]["Peso"]} kg'
-            peso["text"] = str(peso_pokemon)
-
+            #Troca dinamicamente as imagens dos pokemon a cada item selecionado
             render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
             img["image"] = render
             img.image = render
 
-        layout_superior = Label(root, text = '------- Pokedex -------')
+        layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
         layout_superior.configure(bg = 'red') #cor da label superior
-        layout_superior.pack(side = TOP, expand = False, fill = 'x')
+        layout_superior.pack(side = TOP, expand = False, fill = 'x')#posição em relação ao espaço na tela, e quando ela se expande no eixo X
 
         listagem_pokemon = Listbox(root, selectmode = SINGLE) #div usada para alocar a lista dos nomes e id dos pokemons
         listagem_pokemon.configure(relief = 'groove', border = 5, font = 'Times 12 bold') #configuraçõa de borda de fonte da div e os elemntos dentro dela
@@ -162,22 +164,6 @@ class Application:
             texto = f'#{id_pokemon + 1:0>3}  -  {pokemon["Nome"]}' #variavel onde é armazenado o id e o nome dos pokemon pelo laço
             listagem_pokemon.insert(END,texto) #metodo que insere esses dados na div
 
-        tipo = Label(text = "??????")
-        tipo.configure(font = 'times 12 bold')
-        tipo.place(x = 290, y = 35)
-
-        tipo_secundario = Label(text = '??????')
-        tipo_secundario.configure(font = 'times 12 bold')
-        tipo_secundario.place(x = 370, y = 35)
-
-        peso = Label(text = "???? kg")
-        peso.configure(font = 'times 12 bold')
-        peso.place(x = 290, y = 60)
-
-        altura = Label(text = "??? m")
-        altura.configure(font = 'times 12 bold')
-        altura.place(x = 290, y = 90)
-        
         load = Image.open("noid.png")
         render = ImageTk.PhotoImage(load) 
         img = Label(image = render)
@@ -186,15 +172,46 @@ class Application:
         img["width"] = 80
         img["height"] = 80
 
+        #Dados iniciais : imagem, nome, tipo.
         img = Label(image = "")
         img.place(x = 180 , y = 30)
 
-        div_6 = Label(text = "---- Dados -----")
-        div_6.configure(bg = 'red')
+        nome = Label(text = "???????")
+        nome.configure(font = 'times 14 bold')
+        nome.place(x = 290, y = 35)
+    
+        tipo = Label(text = "??????")
+        tipo.configure(font = 'times 12 bold')
+        tipo.place(x = 290, y = 70)
+
+        tipo_secundario = Label(text = '??????')
+        tipo_secundario.configure(font = 'times 12 bold')
+        tipo_secundario.place(x = 370, y = 70)
+
+        div_6 = Label(text = "----- Dados -----") #Label que separa dados iniciais dos dados detalhados
+        div_6.configure(bg = 'red')#cor do background
         div_6.place(x = 174, y = 140)
+
+        weight = Label(text = 'Peso:')
+        weight.configure(font = 'times 12 bold')
+        weight.place(x = 175, y = 180)
+
+        peso = Label(text = "???? kg")
+        peso.configure(font = 'times 12')
+        peso.place(x = 230, y = 180)
+        
+        heigth = Label(text = 'Altura:')
+        heigth.configure(font = 'times 12 bold')
+        heigth.place(x = 310, y = 180 )
+
+        altura = Label(text = "??? m")
+        altura.configure(font = 'times 12')
+        altura.place(x = 370, y = 180)
+        
+
         
 
 
-root.geometry("500x520+10+10")
+root.geometry("500x520+10+10") #funçaõ para definir o tamanho que a tela será aberta
 Application(root)
-root.mainloop()
+root.mainloop() # mantém a interface ligada rodando o codigo, que só fechado quando precionado o botão fechar
