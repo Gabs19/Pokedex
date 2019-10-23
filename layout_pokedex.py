@@ -190,10 +190,13 @@ class Application:
         tipo_secundario.configure(font = 'times 12 bold')
         tipo_secundario.place(x = 370, y = 70)
 
+        
+
         div_6 = Label(text = "----- Dados -----") #Label que separa dados iniciais dos dados detalhados
         div_6.configure(bg = 'red')#cor do background
         div_6.place(x = 174, y = 140)
 
+        #Dados detalhados
         weight = Label(text = 'Peso:')
         weight.configure(font = 'times 12 bold')
         weight.place(x = 175, y = 180)
