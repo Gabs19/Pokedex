@@ -505,7 +505,7 @@ pokemon_lista = [
 'Info' : "Como seu corpo é quase inteiramente composto de água, ele encolhe se for lavado em terra"},
 
 {'ID' : 73,
-'Sprite' : "Sprite/073-m.png",
+'Sprite' : "Sprites/073-m.png",
 'Nome' : "Tentacruel", 'Tipo_1' : "Água", 'Tipo_2' : "Venenoso",
 'Peso' : 55, 'Altura' : 1.6,
 'Descricao' : "Pokémon Água Viva",
