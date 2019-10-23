@@ -6,6 +6,7 @@ from PIL import Image,ImageTk
 root = Tk()
 root.title("POKEDEX")
 root.iconbitmap(r"pokedex1.ico")
+
 class Application:
     
     def __init__(self,master=None):
