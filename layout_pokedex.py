@@ -66,7 +66,8 @@ class Application:
 
             elif tipo_pokemon_1 == 'Lutador':
                 tipo["bg"] = '#AE2A24'
-            
+                img["bg"] = '#AE2A24'
+
             elif tipo_pokemon_1 == 'Venenoso':
                 tipo["bg"] = '#923A92'
                 img["bg"] = '#923A92'
@@ -158,6 +159,7 @@ class Application:
             altura["text"] = str(f'{pokemon_lista[index]["Altura"]} m')
             peso["text"] = str(f'{pokemon_lista[index]["Peso"]} kg')
             descricao["text"] = str(f'{pokemon_lista[index]["Descricao"]}')
+            info["text"] = str(f'{pokemon_lista[index]["Info"]}')
 
             #Troca dinamicamente as imagens dos pokemon a cada item selecionado
             render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
@@ -168,7 +170,7 @@ class Application:
         layout_superior.configure(bg = 'red') #cor da label superior
         layout_superior.pack(side = TOP, expand = False, fill = 'x')#posição em relação ao espaço na tela, e quando ela se expande no eixo X
 
-        listagem_pokemon = Listbox(root, selectmode = SINGLE) #div usada para alocar a lista dos nomes e id dos pokemons
+        listagem_pokemon = Listbox(root, selectmode = BROWSE) #div usada para alocar a lista dos nomes e id dos pokemons
         listagem_pokemon.configure(relief = 'groove', border = 3, font = 'Times 12 bold',bg = '#FA8072') #configuraçõa de borda de fonte da div e os elemntos dentro dela
         listagem_pokemon.pack(side = LEFT, expand = False, fill = 'both') #localidade, expansão onde a div foi colocada
 
@@ -238,6 +240,10 @@ class Application:
         habilidades = Label(text = "Habilidades:")
         habilidades.configure(font = 'times 12 bold')
         habilidades.place(x = 175, y = 240)
+
+        info = Label(text = "")
+        info.configure(font = 'times 12')
+        info.place(x = 175, y = 280)
 
 root.geometry("500x520+10+10") #funçaõ para definir o tamanho que a tela será aberta
 Application(root)
