@@ -186,14 +186,14 @@ pokemon_lista = [
 'Sprite' : "Sprites/027-m.png",
 'Nome' : "Sandshrew", 'Tipo_1' : "Terra", 'Tipo_2' : "",
 'Peso' : 12, 'Altura' : 0.6,
-'Descricao' : "Pokemon Rato",
+'Descricao' : "Pokemon Tatu",
 'Info' :"Cava tocas profundas para viver. Quando em perigo, enrola o corpo para resistir a ataques"},
 
 {'ID' : 28,
 'Sprite' : "Sprites/028-m.png",
 'Nome' : "Sandslash", 'Tipo_1' : "Terra", 'Tipo_2' : "", 
 'Peso' : 29.5, 'Altura' : 1,
-'Descricao' : "Pokemon Rato",
+'Descricao' : "Pokemon Tatu",
 'Info' : "Os espigões em seu corpo são compostos de sua pele endurecida. Ele rola e ataca os inimigos com seus espinhos"},
 
 {'ID' : 29,
@@ -375,7 +375,7 @@ pokemon_lista = [
 'Sprite' : "Sprites/054-m.png",
 'Nome' : "Pysduck" , 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 19.6, 'Altura' : 0.8,
-'Descricao' : "okemon Pato",
+'Descricao' : "Pokemon Pato",
 'Info' : "Quando as dores de cabeça estimulam suas células cerebrais, que geralmente são inativas, ele pode usar um poder misterioso"},
 
 ]

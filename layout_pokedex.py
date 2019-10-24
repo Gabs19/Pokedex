@@ -2,10 +2,12 @@ from tkinter import *
 import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
+# from Icon_Pokedex import *
 
 root = Tk()
 root.title("POKEDEX")
 root.iconbitmap(r"pokedex1.ico")
+
 class Application:
     
     def __init__(self,master=None):
@@ -14,73 +16,87 @@ class Application:
             pokemon = listagem_pokemon.widget #selecionando o widget da listBox para selecionar um item apenas
             index = int(pokemon.curselection()[0]) #função index utilizada para pegar o index e comparar com a da lista de pokemon
 
-
             tipo_pokemon_1 = f'{pokemon_lista[index]["Tipo_1"]}' #Varivel onde está guardado a formatação do index pego pelo bind na listbox
             tipo["text"] = str(tipo_pokemon_1) #Substituição do valor no tipo que é apresentado na tela dinamicamente
-
 
             #estrututas de repetições que colocam cores respectivamente ao tipo do pokemon
             if tipo_pokemon_1 == 'Fogo':
                 tipo["bg"] = '#ED6D12'
+                img["bg"] = '#ED6D12'
             
             elif tipo_pokemon_1 == 'Água':
                 tipo["bg"] = '#4578ED'
+                img["bg"] = '#4578ED'
                
             elif tipo_pokemon_1 == 'Planta':
                 tipo["bg"] = '#69C23D'
+                img["bg"] = '#69C23D'
 
             elif tipo_pokemon_1 == 'Voador':
                 tipo["bg"] = '#8E6FEB'
+                img["bg"] = '#8E6FEB'
 
             elif tipo_pokemon_1 == 'Normal':
                 tipo["bg"] = '#9C9C63'
+                img["bg"] = '#9C9C63'
             
             elif tipo_pokemon_1 == 'Elétrico':
                 tipo["bg"] = '#F6C913'
+                img["bg"] = '#F6C913'
             
             elif tipo_pokemon_1 == 'Terra':
                 tipo["bg"] = '#DBB54D'
+                img["bg"] = '#DBB54D'
             
             elif tipo_pokemon_1 == 'Aço':
                 tipo["bg"] = '#A0A0C0'
+                img["bg"] = '#A0A0C0'
             
             elif tipo_pokemon_1 == 'Inseto':
                 tipo["bg"] = '#97A51D'
+                img["bg"] = '#97A51D'
             
             elif tipo_pokemon_1 == 'Rocha':
                 tipo["bg"] = '#A48F32'
+                img["bg"] = '#A48F32'
 
             elif tipo_pokemon_1 == 'Gelo':
                 tipo["bg"] = '#7ECECE'
+                img["bg"] = '#7ECECE'
 
             elif tipo_pokemon_1 == 'Lutador':
                 tipo["bg"] = '#AE2A24'
             
             elif tipo_pokemon_1 == 'Venenoso':
                 tipo["bg"] = '#923A92'
+                img["bg"] = '#923A92'
 
             elif tipo_pokemon_1 == 'Noturno':
                 tipo["bg"] =  '#644E40'
+                img["bg"] =  '#644E40'
 
             elif tipo_pokemon_1 == 'Fantasma':
                 tipo["bg"] = '#655E88'
+                img["bg"] = '#655E88'
             
             elif tipo_pokemon_1 == 'Dragão':
                 tipo["bg"] = '#5E1DF7'
+                img["bg"] = '#5E1DF7'
 
             elif tipo_pokemon_1 == 'Psíquico':
                 tipo["bg"] = '#F73670'
+                img["bg"] = '#F73670'
 
             elif tipo_pokemon_1 == 'Fada':
                 tipo["bg"] = '#e87890'
+                img["bg"] = '#e87890'
 
             tipo_pokemon_2 = f'{pokemon_lista[index]["Tipo_2"]}'
             tipo_secundario["text"] = str(tipo_pokemon_2)
 
             if tipo_pokemon_2 == "":
-                tipo_secundario["bg"] = 'white'
-            
-            #
+                tipo_secundario["bg"] = '#FFFAFA'
+
             elif tipo_pokemon_2 != "":
 
                 if tipo_pokemon_2 == 'Fogo':
@@ -141,6 +157,7 @@ class Application:
             nome["text"] = str(f'{pokemon_lista[index]["Nome"]}')
             altura["text"] = str(f'{pokemon_lista[index]["Altura"]} m')
             peso["text"] = str(f'{pokemon_lista[index]["Peso"]} kg')
+            descricao["text"] = str(f'{pokemon_lista[index]["Descricao"]}')
 
             #Troca dinamicamente as imagens dos pokemon a cada item selecionado
             render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
@@ -152,7 +169,7 @@ class Application:
         layout_superior.pack(side = TOP, expand = False, fill = 'x')#posição em relação ao espaço na tela, e quando ela se expande no eixo X
 
         listagem_pokemon = Listbox(root, selectmode = SINGLE) #div usada para alocar a lista dos nomes e id dos pokemons
-        listagem_pokemon.configure(relief = 'groove', border = 5, font = 'Times 12 bold') #configuraçõa de borda de fonte da div e os elemntos dentro dela
+        listagem_pokemon.configure(relief = 'groove', border = 3, font = 'Times 12 bold',bg = '#FA8072') #configuraçõa de borda de fonte da div e os elemntos dentro dela
         listagem_pokemon.pack(side = LEFT, expand = False, fill = 'both') #localidade, expansão onde a div foi colocada
 
         div_1 = Scrollbar() #metodo de barra de rolagem
@@ -169,13 +186,13 @@ class Application:
         render = ImageTk.PhotoImage(load) 
         img = Label(image = render)
         img.image = render
-        img.place(x = 180, y = 30)
-        img["width"] = 80
-        img["height"] = 80
 
         #Dados iniciais : imagem, nome, tipo.
-        img = Label(image = "")
+        img = Label(image = render)
         img.place(x = 180 , y = 30)
+        img.configure(relief = 'groove', border = 3,bg = 'white')
+        img["width"] = 90
+        img["height"] = 90
 
         nome = Label(text = "???????")
         nome.configure(font = 'times 14 bold')
@@ -189,7 +206,9 @@ class Application:
         tipo_secundario.configure(font = 'times 12 bold')
         tipo_secundario.place(x = 370, y = 70)
 
-        
+        descricao = Label(text = '??????')
+        descricao.configure(font = 'times 12')
+        descricao.place(x = 290, y = 100)
 
         div_6 = Label(text = "----- Dados -----") #Label que separa dados iniciais dos dados detalhados
         div_6.configure(bg = 'red')#cor do background
@@ -211,10 +230,14 @@ class Application:
         altura = Label(text = "??? m")
         altura.configure(font = 'times 12')
         altura.place(x = 370, y = 180)
-        
 
-        
+        habitat = Label(text = "Habitat:")
+        habitat.configure(font = 'times 12 bold')
+        habitat.place(x = 175, y = 210)
 
+        habilidades = Label(text = "Habilidades:")
+        habilidades.configure(font = 'times 12 bold')
+        habilidades.place(x = 175, y = 240)
 
 root.geometry("500x520+10+10") #funçaõ para definir o tamanho que a tela será aberta
 Application(root)
