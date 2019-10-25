@@ -4,8 +4,7 @@ pokemon_lista = [
 'Nome' : "Bulbasauro", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' :  6.9, 'Altura' : 0.7, 
 'Descricao' : "Pokemon Semente",
-'Info' : """Por algum tempo após seu nascimento,
- cresce  ao se alimentar das sementes nas costas""" },
+'Info' : """Por algum tempo após seu nascimento,cresce  ao se alimentar das sementes nas costas""" },
 
 {'ID' : 2,
 'Sprite' : "Sprites/002-m.png",
@@ -579,7 +578,7 @@ pokemon_lista = [
 'Sprite' : "Sprites/083-m.png",
 'Nome' : "Farfetch'd", 'Tipo_1' : "Voador", 'Tipo_2' : "Normal",
 'Peso' : 15, 'Altura' : 0.8,
-'Descricao' : "Pokémon pato com bico pontual",
+'Descricao' : "Pokémon pato pontual",
 'Info' : "Não pode viver sem o talo que segura. É por isso que defende o caule dos atacantes com sua vida"},
 
 {'ID' : 84,

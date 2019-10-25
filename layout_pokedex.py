@@ -19,76 +19,94 @@ class Application:
             tipo_pokemon_1 = f'{pokemon_lista[index]["Tipo_1"]}' #Varivel onde está guardado a formatação do index pego pelo bind na listbox
             tipo["text"] = str(tipo_pokemon_1) #Substituição do valor no tipo que é apresentado na tela dinamicamente
 
-            #estrututas de repetições que colocam cores respectivamente ao tipo do pokemon
+            #estrututas de decisão que colocam cores respectivamente ao tipo do pokemon
             if tipo_pokemon_1 == 'Fogo':
+                box_tipo_one["bg"] = '#ED6D12'
                 tipo["bg"] = '#ED6D12'
                 img["bg"] = '#ED6D12'
             
             elif tipo_pokemon_1 == 'Água':
+                box_tipo_one["bg"] = '#4578ED'
                 tipo["bg"] = '#4578ED'
                 img["bg"] = '#4578ED'
                
             elif tipo_pokemon_1 == 'Planta':
+                box_tipo_one["bg"] = '#69C23D'
                 tipo["bg"] = '#69C23D'
                 img["bg"] = '#69C23D'
 
             elif tipo_pokemon_1 == 'Voador':
+                box_tipo_one["bg"] = '#8E6FEB'
                 tipo["bg"] = '#8E6FEB'
                 img["bg"] = '#8E6FEB'
 
             elif tipo_pokemon_1 == 'Normal':
+                box_tipo_one["bg"] = '#9C9C63'
                 tipo["bg"] = '#9C9C63'
                 img["bg"] = '#9C9C63'
             
             elif tipo_pokemon_1 == 'Elétrico':
+                box_tipo_one["bg"] = '#F6C913'
                 tipo["bg"] = '#F6C913'
                 img["bg"] = '#F6C913'
             
             elif tipo_pokemon_1 == 'Terra':
+                box_tipo_one["bg"] = '#DBB54D'
                 tipo["bg"] = '#DBB54D'
                 img["bg"] = '#DBB54D'
             
             elif tipo_pokemon_1 == 'Aço':
+                box_tipo_one["bg"] = '#A0A0C0'
                 tipo["bg"] = '#A0A0C0'
                 img["bg"] = '#A0A0C0'
             
             elif tipo_pokemon_1 == 'Inseto':
+                box_tipo_one["bg"] = '#97A51D'
                 tipo["bg"] = '#97A51D'
                 img["bg"] = '#97A51D'
             
             elif tipo_pokemon_1 == 'Rocha':
+                box_tipo_one["bg"] = '#A48F32'
                 tipo["bg"] = '#A48F32'
                 img["bg"] = '#A48F32'
 
             elif tipo_pokemon_1 == 'Gelo':
+                box_tipo_one["bg"] = '#7ECECE'
                 tipo["bg"] = '#7ECECE'
                 img["bg"] = '#7ECECE'
 
             elif tipo_pokemon_1 == 'Lutador':
+                box_tipo_one["bg"] = '#AE2A24'
                 tipo["bg"] = '#AE2A24'
                 img["bg"] = '#AE2A24'
 
             elif tipo_pokemon_1 == 'Venenoso':
+                box_tipo_one["bg"] = '#923A92'
                 tipo["bg"] = '#923A92'
                 img["bg"] = '#923A92'
 
             elif tipo_pokemon_1 == 'Noturno':
+                box_tipo_one["bg"] =  '#644E40'
                 tipo["bg"] =  '#644E40'
                 img["bg"] =  '#644E40'
 
             elif tipo_pokemon_1 == 'Fantasma':
+                box_tipo_one["bg"] = '#655E88'
                 tipo["bg"] = '#655E88'
                 img["bg"] = '#655E88'
             
             elif tipo_pokemon_1 == 'Dragão':
+                box_tipo_one["bg"] = '#5E1DF7'
                 tipo["bg"] = '#5E1DF7'
                 img["bg"] = '#5E1DF7'
 
             elif tipo_pokemon_1 == 'Psíquico':
+                box_tipo_one["bg"] = '#F73670'
                 tipo["bg"] = '#F73670'
                 img["bg"] = '#F73670'
 
             elif tipo_pokemon_1 == 'Fada':
+                box_tipo_one["bg"] = '#e87890'
                 tipo["bg"] = '#e87890'
                 img["bg"] = '#e87890'
 
@@ -96,62 +114,81 @@ class Application:
             tipo_secundario["text"] = str(tipo_pokemon_2)
 
             if tipo_pokemon_2 == "":
+                box_tipo_two["bg"] = '#FFFAFA'
                 tipo_secundario["bg"] = '#FFFAFA'
 
             elif tipo_pokemon_2 != "":
 
                 if tipo_pokemon_2 == 'Fogo':
+                    box_tipo_two["bg"] = '#ED6D12'
                     tipo_secundario["bg"] = '#ED6D12'
                 
                 elif tipo_pokemon_2 == 'Água':
+                    box_tipo_two["bg"] = '#4578ED'
                     tipo_secundario["bg"] = '#4578ED'
                 
                 elif tipo_pokemon_2 == 'Planta':
+                    box_tipo_two["bg"] = '#69C23D'
                     tipo_secundario["bg"] = '#69C23D'
 
                 elif tipo_pokemon_2 == 'Voador':
+                    box_tipo_two["bg"] = '#8E6FEB'
                     tipo_secundario["bg"] = '#8E6FEB'
 
                 elif tipo_pokemon_2 == 'Normal':
+                    box_tipo_two["bg"] = '#9C9C63'
                     tipo_secundario["bg"] = '#9C9C63'
                 
                 elif tipo_pokemon_2 == 'Elétrico':
+                    box_tipo_two["bg"] = '#F6C913'
                     tipo_secundario["bg"] = '#F6C913'
                 
                 elif tipo_pokemon_2 == 'Terra':
+                    box_tipo_two["bg"] = '#DBB54D'
                     tipo_secundario["bg"] = '#DBB54D'
                 
                 elif tipo_pokemon_2 == 'Aço':
+                    box_tipo_two["bg"] = '#A0A0C0'
                     tipo_secundario["bg"] = '#A0A0C0'
                 
                 elif tipo_pokemon_2 == 'Inseto':
+                    box_tipo_two["bg"] = '#97A51D'
                     tipo_secundario["bg"] = '#97A51D'
                 
                 elif tipo_pokemon_2 == 'Rocha':
+                    box_tipo_two["bg"] = '#A48F32'
                     tipo_secundario["bg"] = '#A48F32'
 
                 elif tipo_pokemon_2 == 'Gelo':
+                    box_tipo_two["bg"] = '#7ECECE'
                     tipo_secundario["bg"] = '#7ECECE'
 
                 elif tipo_pokemon_2 == 'Lutador':
+                    box_tipo_two["bg"] = '#AE2A24'
                     tipo_secundario["bg"] = '#AE2A24'
                 
                 elif tipo_pokemon_2 == 'Venenoso':
+                    box_tipo_two["bg"] = '#923A92'
                     tipo_secundario["bg"] = '#923A92'
 
                 elif tipo_pokemon_2 == 'Noturno':
+                    box_tipo_two["bg"] =  '#644E40'
                     tipo_secundario["bg"] =  '#644E40'
 
                 elif tipo_pokemon_2 == 'Fantasma':
+                    box_tipo_two["bg"] = '#655E88'
                     tipo_secundario["bg"] = '#655E88'
                 
                 elif tipo_pokemon_2 == 'Dragão':
+                    box_tipo_two["bg"] = '#5E1DF7'
                     tipo_secundario["bg"] = '#5E1DF7'
 
                 elif tipo_pokemon_2 == 'Psíquico':
+                    box_tipo_two["bg"] = '#F73670'
                     tipo_secundario["bg"] = '#F73670'
 
                 elif tipo_pokemon_2 == 'Fada':
+                    box_tipo_two["bg"] = '#e87890'
                     tipo_secundario["bg"] = '#e87890'
 
             #Troca dinamicamente as dados dos pokemon a cada item selecionado
@@ -199,14 +236,33 @@ class Application:
         nome = Label(text = "???????")
         nome.configure(font = 'times 14 bold')
         nome.place(x = 290, y = 35)
-    
+
+        box_tipo_one = Canvas()
+        box_tipo_one.pack()
+        box_tipo_one.configure()
+        box_tipo_one["width"] = 80
+        box_tipo_one["height"] = 30
+        box_tipo_one.place(x = 290, y = 65)
+        
         tipo = Label(text = "??????")
+        tipo.pack()
         tipo.configure(font = 'times 12 bold')
-        tipo.place(x = 290, y = 70)
+
+        box_tipo_one.create_window(41,15,window = tipo)
+
+        box_tipo_two = Canvas()
+        box_tipo_two.pack()
+        box_tipo_two.configure()
+        box_tipo_two["width"] = 80
+        box_tipo_two["height"] = 30
+        box_tipo_two.place(x = 370, y = 65)
 
         tipo_secundario = Label(text = '??????')
+        tipo_secundario.pack()
         tipo_secundario.configure(font = 'times 12 bold')
-        tipo_secundario.place(x = 370, y = 70)
+
+        box_tipo_two.create_window(41,15,window = tipo_secundario)
+
 
         descricao = Label(text = '??????')
         descricao.configure(font = 'times 12')
@@ -219,31 +275,40 @@ class Application:
         #Dados detalhados
         weight = Label(text = 'Peso:')
         weight.configure(font = 'times 12 bold')
-        weight.place(x = 175, y = 180)
+        weight.place(x = 175, y = 170)
 
         peso = Label(text = "???? kg")
         peso.configure(font = 'times 12')
-        peso.place(x = 230, y = 180)
+        peso.place(x = 230, y = 170)
         
         heigth = Label(text = 'Altura:')
         heigth.configure(font = 'times 12 bold')
-        heigth.place(x = 310, y = 180 )
+        heigth.place(x = 310, y = 170 )
 
         altura = Label(text = "??? m")
         altura.configure(font = 'times 12')
-        altura.place(x = 370, y = 180)
+        altura.place(x = 370, y = 170)
 
         habitat = Label(text = "Habitat:")
         habitat.configure(font = 'times 12 bold')
-        habitat.place(x = 175, y = 210)
+        habitat.place(x = 175, y = 200)
 
         habilidades = Label(text = "Habilidades:")
         habilidades.configure(font = 'times 12 bold')
-        habilidades.place(x = 175, y = 240)
+        habilidades.place(x = 175, y = 230)
 
-        info = Label(text = "")
+        text_box = Canvas()
+        text_box.pack()
+        text_box.configure(relief = 'groove', border = 3)
+        text_box["width"] = 300
+        text_box["height"] = 100
+        text_box.place(x = 175, y = 400)
+        
+        info = Label(text = "", wraplength = 280)
+        info.pack()
         info.configure(font = 'times 12')
-        info.place(x = 175, y = 280)
+
+        text_box.create_window(150,50, window = info )
 
 root.geometry("500x520+10+10") #funçaõ para definir o tamanho que a tela será aberta
 Application(root)
