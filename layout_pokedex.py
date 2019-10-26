@@ -2,7 +2,10 @@ from tkinter import *
 import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
+<<<<<<< HEAD
 import pygame
+=======
+>>>>>>> 88f5586cbcbd485e246810605498f051dda9578b
 # from Icon_Pokedex import *
 
 root = Tk()
