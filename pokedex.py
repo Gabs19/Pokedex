@@ -1,6 +1,7 @@
 pokemon_lista = [ 
 {'ID' : 1, 
 'Sprite' : "Sprites/001-m.png",
+'Som' : "Sounds/001 - Bulbasaur.wav",
 'Nome' : "Bulbasauro", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' :  6.9, 'Altura' : 0.7, 
 'Descricao' : "Pokemon Semente",
@@ -8,6 +9,7 @@ pokemon_lista = [
 
 {'ID' : 2,
 'Sprite' : "Sprites/002-m.png",
+'Som' : "Sounds/002 - Ivysaur.wav",
 'Nome' : "Ivysauro", 'Tipo_1' : "Planta", 'Tipo_2' :"Venenoso", 
 'Peso' :  13, 'Altura' : 1, 
 'Descricao' : "Pokemon Semente",

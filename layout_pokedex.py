@@ -2,6 +2,9 @@ from tkinter import *
 import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
+import pygame
+
+pygame.init()
 
 root = Tk()
 root.title("POKEDEX")
@@ -147,6 +150,13 @@ class Application:
             render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
             img["image"] = render
             img.image = render
+
+            #Toca o som de cada pokemon de acordo com o click
+            Pokemon_sound = pygame.mixer.Sound(file = pokemon_lista[index]['Som'])
+            Pokemon_sound.play()
+            
+            
+            
 
         layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
         layout_superior.configure(bg = 'red') #cor da label superior
