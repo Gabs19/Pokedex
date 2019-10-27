@@ -17,6 +17,7 @@ pokemon_lista = [
 
 {'ID' : 3, 
 'Sprite' : "Sprites/003-m.png",
+'Som' : "Sounds/003 - Venusaur.wav",
 'Nome' : "Venasauro", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso", 
 'Peso' :  100, 'Altura' : 2, 
 'Descricao' : "Pokemon Semente",
@@ -24,6 +25,7 @@ pokemon_lista = [
 
 {'ID' : 4, 
 'Sprite' : "Sprites/004-m.png",
+'Som' : "Sounds/004 - Charmander.wav",
 'Nome' : "Charmander", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' :  8.5, 'Altura' : 0.6, 
 'Descricao' : "Pokemon Lagarto",
@@ -31,6 +33,7 @@ pokemon_lista = [
 
 {'ID' : 5, 
 'Sprite' : "Sprites/005-m.png",
+'Som' : "Sounds/005 - Charmeleon.wav",
 'Nome' : "Charmeleon", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' :  19, 'Altura' : 1.1, 
 'Descricao' : "Pokemon Chamas",
@@ -38,6 +41,7 @@ pokemon_lista = [
 
 {'ID' : 6, 
 'Sprite' : "Sprites/006-m.png",
+'Som' : "Sounds/006 - Charizard.wav",
 'Nome' : "Charizard", 'Tipo_1' : "Fogo", 'Tipo_2' : "Voador", 
 'Peso' :  90.5, 'Altura': 1.7 , 
 'Descricao' : "Pokemon Chamas",
@@ -45,6 +49,7 @@ pokemon_lista = [
 
 {'ID' : 7, 
 'Sprite' : "Sprites/007-m.png",
+'Som' : "Sounds/007 - Squirtle.wav",
 'Nome' : "Squirtle", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' :  9, 'Altura': 0.5 , 
 'Descricao' : "Pokemon Tartaura-jovem",
@@ -52,6 +57,7 @@ pokemon_lista = [
 
 {'ID' : 8, 
 'Sprite' : "Sprites/008-m.png",
+'Som' : "Sounds/008 - Wartortle.wav",
 'Nome' : "Wartortle", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' :  22.5, 'Altura': 1 , 
 'Descricao' : "Pokemon tartaruga",
@@ -59,6 +65,7 @@ pokemon_lista = [
 
 {'ID' : 9, 
 'Sprite' : "Sprites/009-m.png",
+'Som' : "Sounds/009 - Blastoise.wav",
 'Nome' : "Blastoise", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' :  85.5, 'Altura': 1.6 , 
 'Descricao' : "Pokemon Concha",
@@ -67,6 +74,7 @@ pokemon_lista = [
 
 {'ID' : 10,
 'Sprite' : "Sprites/010-m.png",
+'Som' : "Sounds/010 - Caterpie.wav",
 'Nome' : "Caterpie", 'Tipo_1' : "Inseto", 'Tipo_2' : "",
 'Peso' :  2.9, 'Altura': 0.3 , 
 'Descricao' : "Pokemon Lagarta",
@@ -74,6 +82,7 @@ pokemon_lista = [
 
 {'ID' : 11, 
 'Sprite' : "Sprites/011-m.png",
+'Som' : "Sounds/011 - Metapod.wav",
 'Nome' : "Metapode", 'Tipo_1' : "Inseto", 'Tipo_2' : "",
 'Peso' :  9.9, 'Altura': 0.7 , 
 'Descricao' : "Pokemon Crisálida",
@@ -81,6 +90,7 @@ pokemon_lista = [
 
 {'ID' : 12,
 'Sprite' : "Sprites/012-m.png",
+'Som' : "Sounds/012 - Butterfree.wav",
 'Nome' : "Butterfree", 'Tipo_1' : "Inseto", 'Tipo_2': "Voador",
 'Peso' : 32, 'Altura' : 1.1,
 'Descricao' : "Pokemon Borboleta",
@@ -88,6 +98,7 @@ pokemon_lista = [
 
 {'ID' : 13,
 'Sprite' : "Sprites/013-m.png",
+'Som' : "Sounds/013 - Weedle.wav",
 'Nome' : "Weedle", 'Tipo_1' : "Inseto", 'Tipo_2' : "Venenoso",
 'Peso' : 3.2, 'Altura' : 0.3,
 'Descricao' : "Pokemon Lagarta Peluda",
@@ -95,6 +106,7 @@ pokemon_lista = [
 
 {'ID' : 14,
 'Sprite' : "Sprites/014-m.png",
+'Som' : "Sounds/014 - Kakuna.wav",
 'Nome' : "Kakuna", 'Tipo_1' : "Inseto", 'Tipo_2' : "Venenoso",
 'Peso' : 10, 'Altura' : 0.6,
 'Descricao' : "Pokemon Pupa",
@@ -102,6 +114,7 @@ pokemon_lista = [
 
 {'ID' : 15,
 'Sprite' : "Sprites/015-m.png",
+'Som' : "Sounds/015 - Beedrill.wav",
 'Nome' : "Beedrill", 'Tipo_1' : "Inseto", 'Tipo_2' : "Venenoso",
 'Peso' : 29.5, 'Altura' : 1,
 'Descricao' : "Pokemon Abelha venenosa",
@@ -109,6 +122,7 @@ pokemon_lista = [
 
 {'ID' : 16,
 'Sprite' : "Sprites/016-m.png",
+'Som' : "Sounds/016 - Pidgey.wav",
 'Nome' : "Pidgey", 'Tipo_1' : "Voador", 'Tipo_2' : "Normal",
 'Peso' : 1.8, 'Altura' : 0.3,
 'Descricao' : "Pokemon Passarinho",
@@ -116,6 +130,7 @@ pokemon_lista = [
 
 {'ID' : 17,
 'Sprite' : "Sprites/017-m.png",
+'Som' : "Sounds/017 - Pidgeotto.wav",
 'Nome' : "Pidgeotto", 'Tipo_1' : "Voador", 'Tipo_2' : "Normal",
 'Peso' : 30, 'Altura' : 1.1,
 'Descricao' : "Pokemon Passaro",
@@ -123,6 +138,7 @@ pokemon_lista = [
 
 {'ID' : 18,
 'Sprite' : "Sprites/018-m.png",
+'Som' : "Sounds/018 - Pidgeot.wav",
 'Nome' : "Pidgeot", 'Tipo_1' : "Voador", 'Tipo_2' : "Normal",
 'Peso' : 39.5, 'Altura' : 1.5,
 'Descricao' : "Pokemon Passaro",
@@ -130,6 +146,7 @@ pokemon_lista = [
 
 {'ID' : 19,
 'Sprite' : "Sprites/019-m.png",
+'Som' : "Sounds/019 - Rattata.wav",
 'Nome' : "Rattata", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 3.5, 'Altura' : 0.3,
 'Descricao' : "Pokemon rato",
@@ -137,6 +154,7 @@ pokemon_lista = [
 
 {'ID' : 20,
 'Sprite' : "Sprites/020-m.png",
+'Som' : "Sounds/020 - Raticate.wav",
 'Nome' : "Raticate", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 18.5, 'Altura' : 0.7,
 'Descricao' : "Pokemon Ratazana",
@@ -144,6 +162,7 @@ pokemon_lista = [
 
 {'ID' : 21,
 'Sprite' : "Sprites/021-m.png",
+'Som' : "Sounds/021 - Spearow.wav",
 'Nome' : "Spearow", 'Tipo_1' : "Voador", 'Tipo_2': "Normal",
 'Peso' : 2, 'Altura' : 0.3,
 'Descricao' : "Pokemon Passarinho",
@@ -151,6 +170,7 @@ pokemon_lista = [
 
 {'ID' : 22,
 'Sprite' : "Sprites/022-m.png",
+'Som' : "Sounds/022 - Fearow.wav",
 'Nome' : "Fearow", 'Tipo_1' : "Voador", "Tipo_2" : "Normal",
 'Peso' : 38, 'Altura' : 1.2,
 'Descricao' : 'Pokemon Bico',
@@ -158,6 +178,7 @@ pokemon_lista = [
 
 {'ID' : 23,
 'Sprite' : "Sprites/023-m.png",
+'Som' : "Sounds/023 - Ekans.wav",
 'Nome' : "Ekans", 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
 'Peso' : 6.9, 'Altura' : 2,
 'Descricao' : "Pokemon Serpente",
@@ -165,6 +186,7 @@ pokemon_lista = [
 
 {'ID' : 24,
 'Sprite' : "Sprites/024-m.png",
+'Som' : "Sounds/024 - Arbok.wav",
 'Nome' : "Arbok" , 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
 'Peso' : 65, 'Altura' : 3.5,
 'Descricao' : "Pokemon Serpente",
@@ -172,6 +194,7 @@ pokemon_lista = [
 
 {'ID' : 25,
 'Sprite' : "Sprites/025-m.png",
+'Som' : "Sounds/025 - Pikachu.wav",
 'Nome' : "Pikachu", 'Tipo_1' : "Elétrico", 'Tipo_2' : "",
 'Peso' : 6, 'Altura' : 0.4,
 'Descricao' : "Pokemon rato elétrico",
@@ -179,6 +202,7 @@ pokemon_lista = [
 
 {'ID' : 26,
 'Sprite' : "Sprites/026-m.png",
+'Som' : "Sounds/026 - Raichu.wav",
 'Nome' : "Raichu", 'Tipo_1' : "Elétrico", 'Tipo_2' : "",
 'Peso' : 30, 'Altura' : 0.8,
 'Descricao' : "Pokemon rato elétrico",
@@ -186,6 +210,7 @@ pokemon_lista = [
 
 {'ID' : 27,
 'Sprite' : "Sprites/027-m.png",
+'Som' : "Sounds/027 - SandShrew.wav",
 'Nome' : "Sandshrew", 'Tipo_1' : "Terra", 'Tipo_2' : "",
 'Peso' : 12, 'Altura' : 0.6,
 'Descricao' : "Pokemon Tatu",
@@ -193,6 +218,7 @@ pokemon_lista = [
 
 {'ID' : 28,
 'Sprite' : "Sprites/028-m.png",
+'Som' : "Sounds/028 - Sandslash.wav",
 'Nome' : "Sandslash", 'Tipo_1' : "Terra", 'Tipo_2' : "", 
 'Peso' : 29.5, 'Altura' : 1,
 'Descricao' : "Pokemon Tatu",
@@ -200,6 +226,7 @@ pokemon_lista = [
 
 {'ID' : 29,
 'Sprite' : "Sprites/029.png",
+'Som' : "Sounds/029 - Nidoran (Female).wav",
 'Nome' : "Nidoran ♀", 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
 'Peso' : 7, 'Altura' : 0.4,
 'Descricao' : "Pokemon agulha venenosa",
@@ -207,6 +234,7 @@ pokemon_lista = [
 
 {'ID' : 30,
 'Sprite' : "Sprites/030.png",
+'Som' : "Sounds/030 - Nidorina.wav",
 'Nome' : "Nidorina", 'Tipo_1' : "Venenoso", 'Tipo_2' : "", 
 'Peso' : 20, 'Altura' : 0.8,
 'Descricao' : "Pokemon agulha venenosa",
@@ -214,6 +242,7 @@ pokemon_lista = [
 
 {'ID' : 31,
 'Sprite' : "Sprites/031.png",
+'Som' : "Sounds/031 - Nidoqueen.wav",
 'Nome' : "Nidoqueen", 'Tipo_1' : "Terra", 'Tipo_2' : "Venenoso",
 'Peso' : 60, 'Altura' : 1.3,
 'Descricao' : "Pokemon Broca",
@@ -221,6 +250,7 @@ pokemon_lista = [
 
 {'ID' : 32,
 'Sprite' : "Sprites/032.png",
+'Som' : "Sounds/032 - Nidoran (Male).wav",
 'Nome' : "Nidoran ♂", 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
 'Peso' : 9, 'Altura' : 0.5,
 'Descricao' : "Pokemon agulha venenosa",
@@ -228,6 +258,7 @@ pokemon_lista = [
 
 {'ID' : 33,
 'Sprite' : "Sprites/033.png",
+'Som' : "Sounds/033 - Nidorino.wav",
 'Nome' : "Nidorino", 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
 'Peso' : 19.5, 'Altura' : 0.9,
 'Descricao' : "Pokemon agulha venenosa",
@@ -235,6 +266,7 @@ pokemon_lista = [
 
 {'ID' : 34,
 'Sprite' : "Sprites/034.png",
+'Som' : "Sounds/034 - Nidoking.wav",
 'Nome' : "Nidoking", 'Tipo_1' : "Terra", 'Tipo_2': "Venenoso",
 'Peso' : 62, 'Altura' : 1.4,
 "Descricao" : "Pokemon Broca",
@@ -242,6 +274,7 @@ pokemon_lista = [
 
 {'ID' : 35,
 'Sprite' : "Sprites/035-m.png",
+'Som' : "Sounds/035 - Clefairy.wav",
 'Nome' : "Clefairy", 'Tipo_1' : "Fada", 'Tipo_2' : "",
 'Peso' : 7.5, 'Altura' : 0.6,
 'Descricao' : "Pokemon Fada",
@@ -336,7 +369,7 @@ pokemon_lista = [
 'Nome' : "Venonat",  'Tipo_1' : "Inseto", 'Tipo_2': "Venenoso",
 'Peso' : 30, 'Altura' : 1,
 'Descricao' : "Pokemon Inseto",
-'Info' : "Seus grandes olhos são na verdade aglomerados de pequenos olhos. À noite, seu Tipo_1 é atraído pela luz."},
+'Info' : "Seus grandes olhos são na verdade aglomerados de pequenos olhos. À noite, é atraído pela luz."},
 
 {'ID' : 49,
 'Sprite' : "Sprites/049-m.png",
@@ -631,7 +664,6 @@ pokemon_lista = [
 'Peso' : 4, 'Altura' : 0.3,
 'Descricao' : "Pokémon Bivalves",
 'Info' : "Nada para trás abrindo e fechando suas duas conchas. Sua língua grande é sempre mantida pendurada."}, 
-
 
 
 ]

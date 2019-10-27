@@ -2,11 +2,7 @@ from tkinter import *
 import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
-<<<<<<< HEAD
 import pygame
-=======
->>>>>>> 88f5586cbcbd485e246810605498f051dda9578b
-# from Icon_Pokedex import *
 
 root = Tk()
 root.title("POKEDEX")
@@ -19,6 +15,33 @@ class Application:
         def pega_POKEMON(listagem_pokemon): #função que executada ao clicar em um elemento da listbox com botão direito do mouse
             pokemon = listagem_pokemon.widget #selecionando o widget da listBox para selecionar um item apenas
             index = int(pokemon.curselection()[0]) #função index utilizada para pegar o index e comparar com a da lista de pokemon
+
+            nome["text"] = str(f'{pokemon_lista[index]["Nome"]}')
+            altura["text"] = str(f'{pokemon_lista[index]["Altura"]} m')
+            peso["text"] = str(f'{pokemon_lista[index]["Peso"]} kg')
+            descricao["text"] = str(f'{pokemon_lista[index]["Descricao"]}')
+            info["text"] = str(f'{pokemon_lista[index]["Info"]}')
+
+            #Troca dinamicamente as imagens dos pokemon a cada item selecionado
+            render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
+            img["image"] = render
+            img.image = render
+
+            #Toca o som de cada pokemon de acordo com o click
+            pygame.init()
+            Pokemon_sound = pygame.mixer.Sound(file = pokemon_lista[index]['Som'])
+            Pokemon_sound.play()
+
+
+            #Toca o som de cada pokemon de acordo com o click no botão é cry
+            def cry_pokemon():
+                Pokemon_sound.play()
+
+            cry = Button(text = '< ))',command = cry_pokemon)
+            cry.pack()
+            cry.place(x = 400, y = 35)
+            cry.configure()
+
 
             tipo_pokemon_1 = f'{pokemon_lista[index]["Tipo_1"]}' #Varivel onde está guardado a formatação do index pego pelo bind na listbox
             tipo["text"] = str(tipo_pokemon_1) #Substituição do valor no tipo que é apresentado na tela dinamicamente
@@ -196,24 +219,7 @@ class Application:
                     tipo_secundario["bg"] = '#e87890'
 
             #Troca dinamicamente as dados dos pokemon a cada item selecionado
-            nome["text"] = str(f'{pokemon_lista[index]["Nome"]}')
-            altura["text"] = str(f'{pokemon_lista[index]["Altura"]} m')
-            peso["text"] = str(f'{pokemon_lista[index]["Peso"]} kg')
-            descricao["text"] = str(f'{pokemon_lista[index]["Descricao"]}')
-            info["text"] = str(f'{pokemon_lista[index]["Info"]}')
-
-            #Troca dinamicamente as imagens dos pokemon a cada item selecionado
-            render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
-            img["image"] = render
-            img.image = render
-
-            #Toca o som de cada pokemon de acordo com o click
-            pygame.init()
-            Pokemon_sound = pygame.mixer.Sound(file = pokemon_lista[index]['Som'])
-            Pokemon_sound.play()
-            
-            
-            
+             
 
         layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
         layout_superior.configure(bg = 'red') #cor da label superior
@@ -245,9 +251,18 @@ class Application:
         img["width"] = 90
         img["height"] = 90
 
+        box_name = Canvas()
+        box_name.pack()
+        box_name.configure()
+        box_name['width'] = 110
+        box_name['height'] = 25
+        box_name.place(x = 290, y = 35)
+
         nome = Label(text = "???????")
-        nome.configure(font = 'times 14 bold')
-        nome.place(x = 290, y = 35)
+        nome.pack()
+        nome.configure(font = 'times 14 bold',)
+        
+        box_name.create_window(55,12, window = nome)
 
         box_tipo_one = Canvas()
         box_tipo_one.pack()
@@ -274,7 +289,6 @@ class Application:
         tipo_secundario.configure(font = 'times 12 bold')
 
         box_tipo_two.create_window(41,15,window = tipo_secundario)
-
 
         descricao = Label(text = '??????')
         descricao.configure(font = 'times 12')
