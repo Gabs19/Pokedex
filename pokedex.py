@@ -896,7 +896,7 @@ pokemon_lista = [
 'Info' : 'Ficar de pé sobre as patas traseiras liberou as pernas da frente e as tornou mais inteligentes. É muit esquecido, no entanto' },
 
 {'ID' : 113,
-'Sprite' : "Sprite/113.png",
+'Sprite' : "Sprites/113.png",
 'Som' : "Sounds/113 - Chansey.wav",
 'Nome' : "Chansey", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 34.6, 'Altura' : 1.1,
@@ -911,16 +911,30 @@ pokemon_lista = [
 'Descricao' : "Pokemon Vinha",
 'Info' : "Muitas videiras se contorcem e sua verdadeira identidade permanece desconhecida. As videiras azuis crescem por toda a vida"},
 
-{'ID' 115,
-'Sprite' : "Sprite/115.png",
+{'ID' : 115,
+'Sprite' : "Sprites/115.png",
 'Som' : "Sounds/115 - Kangaskhan.wav",
 'Nome' : "KangasKhan", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 80, 'Altura' : 2.2,
 'Descricao' : "Pokemon Pai e Filho",
 'Info' : "Cria a sua prole na bolsa da barriga. Ele permite que o bebê brinque apenas quando se sentir seguro"},
 
+{'ID' : 116,
+'Sprite' : "Sprites/116-m.png",
+'Som' : "Sounds/116 - Horsea.wav",
+'Nome' : "Horsea", 'Tipo_1' : 'Água', 'Tipo_2' : "",
+'Peso' : 8, 'Altura' : 0.4,
+'Descricao' : "Pokemon Cavalo-Marinho",
+'Info' : "Faz seu ninho à sombra dos corais. Se sente perigo, cospe tinta escura e foge"},
+
+{'ID' : 117,
+'Sprite' : "Sprites/117-m.png",
+'Som' : "Sounds/117 - Seadra.wav",
+'Nome' : "Seadra", 'Tipo_1' : 'Água', 'Tipo_2' : "",
+'Peso' : 25, 'Altura' : 1.2,
+'Descricao' : "Pokemon Dragão-Marinho",
+'Info' : "Seus espinhos fornecem proteção. Suas Barbatanas e ossos são apreciados como ingredientes da medicina tradicional"}
 ]
 
-
-for id_pokemon, pokemon in enumerate(pokemon_lista):
-         print(f'#{id_pokemon + 1:0>3} - {pokemon["Tipo_1"]} / {pokemon["Tipo_2"]}')
+# for id_pokemon, pokemon in enumerate(pokemon_lista):
+#          print(f'#{id_pokemon + 1:0>3} - {pokemon["Tipo_1"]} / {pokemon["Tipo_2"]}')
