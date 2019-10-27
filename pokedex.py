@@ -289,6 +289,7 @@ pokemon_lista = [
 
 {'ID' : 37,
 'Sprite' : "Sprites/037-m.png",
+'Som' : "Sound/037 - Vulpix.war",
 'Nome' : "Vulpix", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' : 9.9, 'Altura' : 0.6,
 'Descricao' : "Pokemon Raposa",
@@ -296,6 +297,7 @@ pokemon_lista = [
 
 {'ID' : 38,
 'Sprite' : "Sprites/038-m.png",
+'Som' : "Sounds/038 - Ninetales.wav",
 'Nome' : "Ninetales", 'Tipo_1' : "Fogo", 'Tipo_2' : "", 
 'Peso' : 19.9, 'Altura' : 1.1,
 'Descricao' : "Pokemon Raposa",
@@ -303,6 +305,7 @@ pokemon_lista = [
 
 {'ID' : 39,
 'Sprite' : "Sprites/039-m.png",
+'Som' : "Sounds/039 - Jigglypuff.wav",
 'Nome' : "Jigglypuff", 'Tipo_1' : "Fada", 'Tipo_2': "Normal",
 'Peso' : 5.5, 'Altura' : 0.5,
 'Descricao' : "Pokemon Balao",
@@ -310,6 +313,7 @@ pokemon_lista = [
 
 {'ID' : 40,
 'Sprite' : "Sprites/040-m.png",
+'Som' : "Sounds/040 - Wigglytuff.wav",
 'Nome' : "Wigglytuff", 'Tipo_1' : "Fada", 'Tipo_2': "Normal",
 'Peso' : 12, 'Altura' : 1,
 'Descricao' : "Pokemon Balao",
@@ -317,6 +321,7 @@ pokemon_lista = [
 
 {'ID' : 41,
 'Sprite' : "Sprites/041-m.png",
+'Som' : "Sounds/041 - Zubat.wav",
 'Nome' : "Zubat", 'Tipo_1' : "Venenoso", 'Tipo_2': "Voador",
 'Peso' : 7.5, 'Altura' : 0.8,
 'Descricao' : "Pokemon Morcego",
@@ -324,6 +329,7 @@ pokemon_lista = [
 
 {'ID' : 42,
 'Sprite' : "Sprites/042-m.png",
+'Som' : "Sound/042 - Golbat.wav",
 'Nome' : "Golbat", 'Tipo_1' : "Venenoso", 'Tipo_2' : "Voador",
 'Peso' : 55, 'Altura' : 1.6,
 'Descricao' : "Pokemon Morcego",
@@ -331,6 +337,7 @@ pokemon_lista = [
 
 {'ID' : 43,
 'Sprite' : "Sprites/043-m.png",
+'Som' : "Sounds/043 - Oddish",
 'Nome' : "Oddish", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 5.4, 'Altura' : 0.5,
 'Descricao' : 'Pokemon Erva',
@@ -338,6 +345,7 @@ pokemon_lista = [
 
 {'ID' : 44,
 'Sprite' : "Sprites/044-m.png",
+'Som' : "Sounds/044 - Gloom.wav",
 'Nome' : "Gloom", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 8.6, 'Altura' : 0.8,
 'Descricao' : "Pokemon Erva",
@@ -345,6 +353,7 @@ pokemon_lista = [
 
 {'ID' : 45,
 'Sprite' : "Sprites/045-m.png",
+'Som' : "Sounds/045 - Vileplume.wav",
 'Nome' : "Vileplume", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 18.6, 'Altura' : 1.2,
 'Descricao' : "Pokemon Flor",
@@ -352,6 +361,7 @@ pokemon_lista = [
 
 {'ID' : 46,
 'Sprite' : "Sprites/046-m.png",
+'Som' : "Sounds/046 - Paras.wav",
 'Nome' : "Paras", 'Tipo_1' : "Planta", 'Tipo_2' : "Inseto",
 'Peso' : 5.4, 'Altura' : 0.3,
 'Descricao' : "Pokemon Cogumelo",
@@ -359,6 +369,7 @@ pokemon_lista = [
 
 {'ID' : 47,
 'Sprite' : "Sprites/047-m.png",
+'Som' : "Sounds/047 - Parasect.wav",
 'Nome' : "Parasect", 'Tipo_1' : "Planta", 'Tipo_2': "Inseto",
 'Peso' : 29.5, 'Altura' : 1,
 'Descricao' : "Pokemon Cogumelo",
@@ -366,6 +377,7 @@ pokemon_lista = [
 
 {'ID' : 48,
 'Sprite' : "Sprites/048-m.png",
+'Som' : "Sounds/048 - Venonat.wav",
 'Nome' : "Venonat",  'Tipo_1' : "Inseto", 'Tipo_2': "Venenoso",
 'Peso' : 30, 'Altura' : 1,
 'Descricao' : "Pokemon Inseto",
@@ -373,6 +385,7 @@ pokemon_lista = [
 
 {'ID' : 49,
 'Sprite' : "Sprites/049-m.png",
+'Som' : "Sounds/049 - Venomoth.wav",
 'Nome' : "Venomoth", 'Tipo_1' : "Inseto", 'Tipo_2' : "Venenoso",
 'Peso' : 12.5, 'Altura' : 1.5,
 'Descricao' : "Pokemon traca venenosa",
@@ -380,6 +393,7 @@ pokemon_lista = [
 
 {'ID' : 50,
 'Sprite' : "Sprites/050-m.png",
+'Som' : "Sounds/050 - Diglett.wav",
 'Nome' : "Diglett", 'Tipo_1' : "Terra", 'Tipo_2' : "",
 'Peso' : 0.8, 'Altura' : 0.2,
 'Descricao' : "Pokemon Toupeira",
@@ -387,6 +401,7 @@ pokemon_lista = [
 
 {'ID' :  51,
 'Sprite' : "Sprites/051-m.png",
+'Som' : "Sounds/051 - Dugtrio.wav",
 'Nome' : "Dugtrio", 'Tipo_1' : "Terra", 'Tipo_2' : "",
 'Peso' : 33.3, 'Altura' : 0.7,
 'Descricao' : "Pokemon Toupeira",
@@ -394,6 +409,7 @@ pokemon_lista = [
 
 {'ID' : 52,
 'Sprite' : "Sprites/052-m.png",
+'Som' : "Sounds/052 - Meowth.wav",
 'Nome' : "Meowth", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 4.2, 'Altura' : 0.4,
 'Descricao' : "Pokemon Gatuno",
@@ -401,6 +417,7 @@ pokemon_lista = [
 
 {'ID' : 53,
 'Sprite' : "Sprites/053-m.png",
+'Som' : "Sounds/053 - Persian.wav",
 'Nome' : "Persian", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 32, 'Altura' : 1,
 'Descricao' : "Pokemon Gato Siamês",
@@ -408,6 +425,7 @@ pokemon_lista = [
 
 {'ID' : 54,
 'Sprite' : "Sprites/054-m.png",
+'Som' : "Sounds/054 - Psyduck.wav",
 'Nome' : "Pysduck" , 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 19.6, 'Altura' : 0.8,
 'Descricao' : "Pokemon Pato",
@@ -415,6 +433,7 @@ pokemon_lista = [
 
 {'ID' : 55,
 'Sprite' : "Sprites/055-m.png",
+'Som' : "Sounds/056 - Golduck.wav",
 'Nome' : "Golduck", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 76.6, 'Altura' : 1.7,
 'Descricao' : "Pokémon pato",
@@ -422,6 +441,7 @@ pokemon_lista = [
 
 {'ID' : 56,
 'Sprite' : "Sprites/056-m.png",
+'Som' : "Sounds/056 - Mankey.wav",
 'Nome' : "Mankey", 'Tipo_1' : "Lutador", 'Tipo_2' : "",
 'Peso' : 28, 'Altura' : 0.5,
 'Descricao' : "Pokémon Macaco Porco",
@@ -429,6 +449,7 @@ pokemon_lista = [
 
 {'ID' : 57,
 'Sprite' : "Sprites/057-m.png",
+'Som' : "Sounds/057 - Primeape.wav",
 'Nome' : "Primeape", 'Tipo_1' : "Lutador", 'Tipo_2' : "",
 'Peso' : 32, 'Altura' : 1,
 'Descricao' : "Pokémon Macaco Porco",
@@ -436,6 +457,7 @@ pokemon_lista = [
 
 {'ID' : 58,
 'Sprite' : "Sprites/058-m.png",
+'Som' : "Sounds/058 - Growlithe.wav",
 'Nome' : "Growlithe", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' : 19, 'Altura' : 0.7,
 'Descricao' : "Pokémon Filhote",
@@ -443,6 +465,7 @@ pokemon_lista = [
 
 {'ID' : 59,
 'Sprite' : "Sprites/059-m.png",
+'Som' : "Sounds/059 - Arcanine.wav",
 'Nome' : "Arcanine", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' : 155, 'Altura' : 1.9,
 'Descricao' : "Pokemon Lenda",
@@ -450,6 +473,7 @@ pokemon_lista = [
 
 {'ID' : 60,
 'Sprite' : "Sprites/060-m.png",
+'Som' : "Sounds/060 - Poiliwag.wav",
 'Nome' : "Poliwag", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 12.4, 'Altura' : 0.6,
 'Descricao' : "Pokémon Girino",
@@ -457,6 +481,7 @@ pokemon_lista = [
 
 {'ID' : 61,
 'Sprite' : "Sprites/061-m.png",
+'Som' : "Sounds/061 - Poiliwhirl.wav",
 'Nome' : "Poliwhirl", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 20, 'Altura' : 1,
 'Descricao' : "Pokémon Girino",
@@ -464,6 +489,7 @@ pokemon_lista = [
 
 {'ID' : 62,
 'Sprite' : "Sprites/062-m.png",
+'Som' : "Sounds/062 - Poliwrath.wav",
 'Nome' : "Poliwrath", 'Tipo_1' : "Água", 'Tipo_2' : "Lutador",
 'Peso' : 54, 'Altura' : 1.3,
 'Descricao' : "Pokémon Girino",
@@ -471,6 +497,7 @@ pokemon_lista = [
 
 {'ID' : 63,
 'Sprite' : "Sprites/063-m.png",
+'Som' : "Sounds/063 - Abra.wav",
 'Nome' : "Abra", 'Tipo_1' : "Psíquico", 'Tipo_2' : "",
 'Peso' : 19.5, 'Altura' : 0.9,
 'Descricao' : "Pokémon de telecinese",
@@ -478,6 +505,7 @@ pokemon_lista = [
 
 {'ID' : 64,
 'Sprite' : "Sprites/064-m.png",
+'Som' : "Sounds/064 - Kadabra.wav",
 'Nome' : "Kadabra", 'Tipo_1' : "Psíquico", 'Tipo_2' : "",
 'Peso' : 56.5, 'Altura' : 1.3,
 'Descricao' : "Pokémon de telecinese",
@@ -485,6 +513,7 @@ pokemon_lista = [
 
 {'ID' : 65,
 'Sprite' : "Sprites/065-m.png",
+'Som' : "Sounds/065 - Alakazam.wav",
 'Nome' : "Alakazam", 'Tipo_1' : "Psíquico", 'Tipo_2' : "",
 'Peso' : 48, 'Altura' : 1.5,
 'Descricao' : "Pokémon de telecinese",
@@ -492,6 +521,7 @@ pokemon_lista = [
  
 {'ID' : 66,
 'Sprite' : "Sprites/066-m.png",
+'Som' : "Sounds/066 - Machop.wav",
 'Nome' : "Machop", 'Tipo_1' : "Lutador", 'Tipo_2' : "",
 'Peso' : 19.5, 'Altura' : 0.8,
 'Descricao' : "Pokémon Musculoso",
@@ -499,6 +529,7 @@ pokemon_lista = [
  
 {'ID' : 67,
 'Sprite' : "Sprites/067-m.png",
+'Som' : "Sounds/067 - Machoke.wav",
 'Nome' : "Machoke", 'Tipo_1' : "Lutador", 'Tipo_2' : "",
 'Peso' : 70.5, 'Altura' : 1.5, 
 'Descricao' : "Pokémon Musculoso",
@@ -506,6 +537,7 @@ pokemon_lista = [
 
 {'ID' : 68,
 'Sprite' : "Sprites/068-m.png",
+'Som' : "Sounds/068 - Machamp.wav",
 'Nome' : "Machamp", 'Tipo_1' : "Lutador", 'Tipo_2' : "",
 'Peso' : 130, 'Altura' : 1.6,
 'Descricao': "Pokémon Musculoso",
@@ -513,6 +545,7 @@ pokemon_lista = [
 
 {'ID' : 69,
 'Sprite' : "Sprites/069-m.png",
+'Som' : "Sounds/069 - Belsprout.wav",
 'Nome' : "Belsprout", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 4, 'Altura' : 0.7,
 'Descricao' : "Pokémon Flores",
@@ -520,6 +553,7 @@ pokemon_lista = [
 
 {'ID' : 70,
 'Sprite' : "Sprites/070-m.png",
+'Som' : "Sounds/070 - Weepinbell.wav",
 'Nome' : "Weepinbell", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 6.4, 'Altura' : 1,
 'Descricao' : "Pokémon papa-moscas",
@@ -527,6 +561,7 @@ pokemon_lista = [
 
 {'ID' : 71,
 'Sprite' : "Sprites/071-m.png",
+'Som' : "Sounds/071 - Victreebel.wav",
 'Nome' : "Victreebel", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 15.5, 'Altura' : 1.7,
 'Descricao' : "Pokémon papa-moscas",
@@ -534,6 +569,7 @@ pokemon_lista = [
 
 {'ID' : 72,
 'Sprite' : "Sprites/072-m.png",
+'Som' : "Sounds/072 - Tentacool.wav",
 'Nome' : "Tentacool", 'Tipo_1' : "Água", 'Tipo_2' : "Venenoso",
 'Peso' : 45.5, 'Altura' : 0.9,
 'Descricao' : "Pokémon Água-viva",
@@ -541,6 +577,7 @@ pokemon_lista = [
 
 {'ID' : 73,
 'Sprite' : "Sprites/073-m.png",
+'Som' : "Sounds/073 - Tentacruel.wav",
 'Nome' : "Tentacruel", 'Tipo_1' : "Água", 'Tipo_2' : "Venenoso",
 'Peso' : 55, 'Altura' : 1.6,
 'Descricao' : "Pokémon Água Viva",
@@ -548,6 +585,7 @@ pokemon_lista = [
 
 {'ID' : 74,
 'Sprite' : "Sprites/074-m.png",
+'Som' : "Sounds/074 - Geodude.wav",
 'Nome' : "Geodude", 'Tipo_1' : "Rocha", 'Tipo_2' : "Terra",
 'Peso' : 20, 'Altura' : 0.4,
 'Descricao' : "Pokémon Rocha",
@@ -555,6 +593,7 @@ pokemon_lista = [
 
 {'ID' : 75,
 'Sprite' : "Sprites/075-m.png",
+'Som' : "Sounds/075 - Graveler.wav",
 'Nome' : "Graveler", 'Tipo_1' : "Rocha", 'Tipo_2' : "Terra",
 'Peso' : 105, 'Altura' : 1,
 'Descricao' : "Pokémon Rocha",
@@ -562,6 +601,7 @@ pokemon_lista = [
 
 {'ID' : 76,
 'Sprite' : "Sprites/076-m.png",
+'Som' : "Sounds/076 - Golem.wav",
 'Nome' : "Golem", 'Tipo_1' : "Rocha", 'Tipo_2' : "Terra",
 'Peso' : 300, 'Altura' : 1.4,
 'Descricao' : "Pokémon Megaton",
@@ -569,6 +609,7 @@ pokemon_lista = [
 
 {'ID' : 77,
 'Sprite' : "Sprites/077-m.png",
+'Som' : "Sounds/077 - Ponyta.wav",
 'Nome' : "Ponyta", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' : 30, 'Altura' : 1,
 'Descricao' : "Pokémon Cavalo de Fogo",
@@ -576,6 +617,7 @@ pokemon_lista = [
 
 {'ID' : 78,
 'Sprite' : "Sprites/078-m.png",
+'Som' : "Sounds/078 - Rapidash.wav",
 'Nome' : "Rapidash", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' : 95, 'Altura' : 1.7,
 'Descricao' : "Pokémon Cavalo de Fogo",
@@ -583,6 +625,7 @@ pokemon_lista = [
 
 {'ID' : 79,
 'Sprite' : "Sprites/079-m.png",
+'Som' : "Sounds/079 - Slowpoke.wav",
 'Nome' : "Slowpoke", 'Tipo_1' : "Psíquico", 'Tipo_2' : "Água",
 'Peso' : 36, 'Altura' : 1.2,
 'Descricao' : "Pokémon Estúpido",
@@ -590,13 +633,15 @@ pokemon_lista = [
 
 {'ID' : 80,
 'Sprite' : "Sprites/080-m.png",
-'Nome' : "Slobro", 'Tipo_1' : "Psíquico", 'Tipo_2' : "Água",
+'Som' : "Sounds/080 - Slowbro.wav",
+'Nome' : "Slowbro", 'Tipo_1' : "Psíquico", 'Tipo_2' : "Água",
 'Peso' : 78.5, 'Altura' : 1.6,
 'Descricao' : "Pokémon Caranguejo Eremita",
 'Info' : "Embora seja geralmente tolo, parece inspirado se o Shellder em sua cauda morder"},
 
 {'ID' : 81,
 'Sprite' : "Sprites/081.png",
+'Som' : "Sounds/081 - Magnemite.wav",
 'Nome' : "Magnemite", 'Tipo_1' : "Elétrico", 'Tipo_2' : "Aço",
 'Peso' : 6, 'Altura' : 0.3,
 'Descricao' : "Pokémon Magnético",
@@ -604,6 +649,7 @@ pokemon_lista = [
 
 {'ID' : 82,
 'Sprite' : "Sprites/082.png",
+'Som' : "Sounds/083 - Magneton.wav",
 'Nome' : "Magneton", 'Tipo_1' : "Elétrico", 'Tipo_2' : "Aço",
 'Peso' : 60, 'Altura' : 1,
 'Descricao' : "Pokémon Magnético",
@@ -611,6 +657,7 @@ pokemon_lista = [
 
 {'ID' : 83,
 'Sprite' : "Sprites/083-m.png",
+'Som' : "Sounds/083 - Farfetch'd.wav",
 'Nome' : "Farfetch'd", 'Tipo_1' : "Voador", 'Tipo_2' : "Normal",
 'Peso' : 15, 'Altura' : 0.8,
 'Descricao' : "Pokémon pato pontual",
@@ -618,6 +665,7 @@ pokemon_lista = [
 
 {'ID' : 84,
 'Sprite' : "Sprites/084-m.png",
+'Som' : "Sounds/084 - Doduo.wav",
 'Nome' : "Doduo", 'Tipo_1' : "Voador", 'Tipo_2' : "Normal",
 'Peso' : 39.2, 'Altura' : 1.4,
 'Descricao' : "Pokémon Pássaro Gêmeos",
@@ -625,6 +673,7 @@ pokemon_lista = [
 
 {'ID' : 85,
 'Sprite' : "Sprites/085-m.png",
+'Som' : "Sounds/085 - Dodrio.wav",
 'Nome' : "Dodrio", 'Tipo_1' : "Voador", 'Tipo_2' : "Normal",
 'Peso' : 85.2, 'Altura' : 1.8,
 'Descricao' : "Pokémon Pássaro Tripleto",
@@ -632,6 +681,7 @@ pokemon_lista = [
 
 {'ID' : 86,
 'Sprite' : "Sprites/086-m.png",
+'Som' : "Sounds/086 - Seel.wav",
 'Nome' : "Seel", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 90, 'Altura' : 1.1,
 'Descricao' : "Pokémon-leão-marinho",
@@ -639,6 +689,7 @@ pokemon_lista = [
 
 {'ID' : 87,
 'Sprite' : "Sprites/087-m.png",
+'Som' : "Sounds/087 - Dewgong.wav",
 'Nome' : "Dewgong", 'Tipo_1' : "Gelo", 'Tipo_2' : "Água",
 'Peso' : 120, 'Altura' : 1.7,
 'Descricao' : "Pokémon-leão-marinho",
@@ -646,6 +697,7 @@ pokemon_lista = [
 
 {'ID' : 88,
 'Sprite' : "Sprites/088-m.png",
+'Som' : "Sounds/088 - Grimer.wav",
 'Nome' : "Grimer", 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
 'Peso' : 30, 'Altura' : 0.9,
 'Descricao' : "Pokémon de Lodo",
@@ -653,17 +705,138 @@ pokemon_lista = [
 
 {'ID' : 89,
 'Sprite' : "Sprites/089-m.png",
-'Nome' : "Mulk", 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
+'Som' : "Sounds/089 - Muk.wav",
+'Nome' : "Muk", 'Tipo_1' : "Venenoso", 'Tipo_2' : "",
 'Peso' : 30, 'Altura' : 1.2,
 'Descricao' : "Pokémon de Lodo",
 'Info' : "É tão fedido! O corpo de Muks contém elementos tóxicos, e qualquer planta murcha quando passa"},
 
 {'ID' : 90,
 'Sprite' : "Sprites/090-m.png",
+'Som' : "Sounds/090 - Shellder.wav",
 'Nome' : "Shellder", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 4, 'Altura' : 0.3,
 'Descricao' : "Pokémon Bivalves",
 'Info' : "Nada para trás abrindo e fechando suas duas conchas. Sua língua grande é sempre mantida pendurada."}, 
+
+{'ID' : 91,
+'Sprite' : "Sprites/091-m.png",
+'Som' : "Sounds/091 - Cloyster.wav",
+'Nome' : "Cloyster", 'Tipo_1' : "Gelo", 'Tipo_2' : "Gelo",
+'Peso' : 132.5, 'Altura' : 1.5,
+'Descricao' :"Pokémon Bivalves",
+'Info' : "Ele luta mantendo a concha firmemente fechada para proteção e disparando espigas para repelir os inimigos"},
+
+{'ID' : 92,
+'Sprite' : "Sprites/092-m.png",
+'Som' : "Sounds/092 - Gastly.wav",
+'Nome' : "Gastly", 'Tipo_1' : "Fantasma", 'Tipo_2' : "Venenoso",
+'Peso' : 0.1, 'Altura' : 1.3,
+'Descricao' : "Pokémon Gasoso",
+'Info' : "Nascido a partir de gases, qualquer um desmaia se for engolido por seu corpo gasoso, que contém veneno"},
+
+{'ID' : 93,
+'Sprite' : "Sprites/093-m.png",
+'Som' : "Sounds/093 - Haunter.wav",
+'Nome' : "Haunter", 'Tipo_1' : "Fantasma", 'Tipo_2' : "Venenoso",
+'Peso' : 0.1, 'Altura' : 1.6,
+'Descricao' : "Pokémon Gasoso",
+'Info' : "Gosta de espreitar no escuro e bater nos ombros com uma mão gasosa. Seu toque causa tremores sem fim"},
+
+{'ID' : 94,
+'Sprite' : "Sprites/094-m.png",
+'Som' : "Sounds/094 - Gengar.wav",
+'Nome' : "Gengar", 'Tipo_1' : "Fantasma", 'Tipo_2' : "Venenoso",
+'Peso' : 40.5, 'Altura' : 1.5,
+'Descricao' : "Pokemon das Sombras",
+'Info' : "O olhar malicioso que flutua na escuridão pertence a um Gengar que se deleita em lançar maldições às pessoas"},
+
+{'ID' : 95,
+'Sprite' : "Sprites/095-m.png",
+'Som' : "Sounds/095 - Onix.wav",
+'Nome' : "Onix", 'Tipo_1' : "Rocha", 'Tipo_2' : "Terra",
+'Peso' : 210, 'Altura' : 8.8,
+'Descricao' : "Pokémon Serpente da Rocha",
+'Info' : "Ao abrir sua boca grande, ingere grandes quantidades de solo e cria longos túneis"},
+
+{'ID' : 96,
+'Sprite' : "Sprites/096-m.png",
+'Som' : "Sounds/096 - Drowzee.wav",
+'Nome' : "Drowzee", 'Tipo_1' : "Psíquico", 'Tipo_2' : "",
+'Peso' : 32.4, 'Altura' : 1,
+'Descricao' : "Pokémon da hipnose",
+'Info' : "Ele pode dizer o que as pessoas estão sonhando cheirando o nariz grande. Adora sonhos divertidos"},
+
+{'ID' : 97,
+'Sprite' : "Sprites/097-m.png",
+'Som' : "Sounds/097 - Hypno.wav",
+'Nome' : "Hypno", 'Tipo_1' : "Psíquico", 'Tipo_2' : "",
+'Peso' : 75.6, 'Altura' : 1.6,
+'Descricao' : "Pokémon da hipnose",
+'Info' : "Ver seu pêndulo oscilante pode induzir o sono em três segundos, mesmo em alguém que acabou de acordar"},
+
+{'ID' : 98,
+'Sprites' : "Sprites/098-m.png",
+'Som' : "Sounds/098 - Krabby.wav",
+'Nome' : "Krabby", 'Tipo_1' : "Água", 'Tipo_2' : "",
+'Peso' : 6.5, 'Altura' : 0.4,
+'Descricao' : "Pokémon de caranguejo de água doce",
+'Info' : "Ele vive em tocas cavadas em praias arenosas. Suas pinças crescem totalmente se forem quebradas na batalha"},
+
+{'ID' : 99,
+'Sprite' : "Sprites/099-m.png",
+'Som' : "Sounds/099 - Kingler.wav",
+'Nome' : "Kingler", 'Tipo_1' : "Água", 'Tipo_2' : "",
+'Peso' : 60, 'Altura' : 1.3,
+'Descricao' : "Pokémon Pinça",
+'Info' : "A pinça maior possui uma força de 10.000 cavalos de potência. No entanto, é tão pesado que é difícil mirar"},
+
+{'ID' : 100,
+'Sprite' : "Sprites/100-m.png",
+'Som' : "Sounds/100 - Voltorb.wav",
+'Nome' : "Voltorb", 'Tipo_1' : "Életrico", 'Tipo_2' : "",
+'Peso' : 10.4, 'Altura' : 0.5,
+'Descricao' : "Pokémon Bola",
+'Info' : "Parece uma Pok Pok. É perigoso porque pode eletrocutar ou explodir em contato"},
+
+{'ID' : 101,
+'Sprite' : "Sprites/101-m.png",
+'Som' : "Sounds/101 - Electrode.wav",
+'Nome' : "Electrode", 'Tipo_1' : "Életrico", 'Tipo_2' : "",
+'Peso' : 66.6, 'Altura' : 1.2,
+'Descricao' : "Pokémon Bola",
+'Info' : "Sabe-se que ele flutua nos ventos se estiver cheio de eletricidade armazenada"},
+
+{'ID' : 102,
+'Sprite' : "Sprite/102-m.png",
+'Som' : "Sounds/102 - Exeggcute.wav",
+'Nome' : "Exeggcute", 'Tipo_1' : "Psíquico", 'Tipo_2' : "Planta",
+'Peso' : 2.5, 'Altura' : 0.4,
+'Descricao' : "Pokémon Ovo",
+'Info' : "Seus seis ovos conversam usando telepatia. Eles podem se reunir rapidamente se forem separados"},
+
+{'ID' : 103,
+'Sprite' : "Sprites/103-m.png",
+'Som' : "Sounds/103 - Exeggutor.wav",
+'Nome' : "Exeggutor", 'Tipo_1' : "Psíquico", 'Tipo_2' : "Planta",
+'Peso' : 120, 'Altura' : 2,
+'Descricao' : "É chamado The Walking Jungle. Se uma cabeça cresce muito, ela cai e se torna um Exeggcute"},
+
+{'ID' : 104,
+'Sprite' : "Sprites/104-m.png",
+'Som' : "Sounds/104 - Cubone.wav",
+'Nome' : "Cubone", 'Tipo_1' : "Terra", 'Tipo_2' : "",
+'Peso' : 6.5, 'Altura' : 0.4,
+'Descricao' : "Pokémon Solitário",
+'Info' : "Quando pensa em sua mãe morta, chora. Seu choro faz o crânio que usa chocalhar oco"},
+
+{'ID' : 105,
+'Sprite' : "Sprites/105-m.png",
+'Som' : "Sounds/105 - Marowak.wav",
+'Nome' : "Marowak", 'Tipo_1' : "Terra", 'Tipo_2' : "",
+'Peso' : 45, 'Altura' : 1,
+'Descricao' : "Pokémon Amante de Ossos",
+'Info' :  "Desde o seu nascimento, este Pokémon selvagem mantém constantemente ossos. É hábil em usá-los como armas"},
 
 
 ]
