@@ -282,6 +282,7 @@ pokemon_lista = [
 
 {'ID' : 36,
 'Sprite' : "Sprites/036-m.png",
+'Som' : "Sounds/036 - Clefable.wav",
 'Nome' : "Clefable", 'Tipo_1' : "Fada", 'Tipo_2' : "",
 'Peso' : 40, 'Altura' : 1.3,
 'Descricao' : "Pokemon Fada",
@@ -289,7 +290,7 @@ pokemon_lista = [
 
 {'ID' : 37,
 'Sprite' : "Sprites/037-m.png",
-'Som' : "Sound/037 - Vulpix.war",
+'Som' : "Sounds/037 - Vulpix.wav",
 'Nome' : "Vulpix", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' : 9.9, 'Altura' : 0.6,
 'Descricao' : "Pokemon Raposa",
@@ -329,7 +330,7 @@ pokemon_lista = [
 
 {'ID' : 42,
 'Sprite' : "Sprites/042-m.png",
-'Som' : "Sound/042 - Golbat.wav",
+'Som' : "Sounds/042 - Golbat.wav",
 'Nome' : "Golbat", 'Tipo_1' : "Venenoso", 'Tipo_2' : "Voador",
 'Peso' : 55, 'Altura' : 1.6,
 'Descricao' : "Pokemon Morcego",
@@ -337,7 +338,7 @@ pokemon_lista = [
 
 {'ID' : 43,
 'Sprite' : "Sprites/043-m.png",
-'Som' : "Sounds/043 - Oddish",
+'Som' : "Sounds/043 - Oddish.wav",
 'Nome' : "Oddish", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 5.4, 'Altura' : 0.5,
 'Descricao' : 'Pokemon Erva',
@@ -433,7 +434,7 @@ pokemon_lista = [
 
 {'ID' : 55,
 'Sprite' : "Sprites/055-m.png",
-'Som' : "Sounds/056 - Golduck.wav",
+'Som' : "Sounds/055 - Golduck.wav",
 'Nome' : "Golduck", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 76.6, 'Altura' : 1.7,
 'Descricao' : "Pokémon pato",
@@ -473,7 +474,7 @@ pokemon_lista = [
 
 {'ID' : 60,
 'Sprite' : "Sprites/060-m.png",
-'Som' : "Sounds/060 - Poiliwag.wav",
+'Som' : "Sounds/060 - Poliwag.wav",
 'Nome' : "Poliwag", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 12.4, 'Altura' : 0.6,
 'Descricao' : "Pokémon Girino",
@@ -481,7 +482,7 @@ pokemon_lista = [
 
 {'ID' : 61,
 'Sprite' : "Sprites/061-m.png",
-'Som' : "Sounds/061 - Poiliwhirl.wav",
+'Som' : "Sounds/061 - Poliwhirl.wav",
 'Nome' : "Poliwhirl", 'Tipo_1' : "Água", 'Tipo_2' : "",
 'Peso' : 20, 'Altura' : 1,
 'Descricao' : "Pokémon Girino",
@@ -545,8 +546,8 @@ pokemon_lista = [
 
 {'ID' : 69,
 'Sprite' : "Sprites/069-m.png",
-'Som' : "Sounds/069 - Belsprout.wav",
-'Nome' : "Belsprout", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
+'Som' : "Sounds/069 - Bellsprout.wav",
+'Nome' : "Bellsprout", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 4, 'Altura' : 0.7,
 'Descricao' : "Pokémon Flores",
 'Info' : "Prefere ambientes quentes e úmidos. É rápido em capturar presas com suas videiras"},
@@ -649,7 +650,7 @@ pokemon_lista = [
 
 {'ID' : 82,
 'Sprite' : "Sprites/082.png",
-'Som' : "Sounds/083 - Magneton.wav",
+'Som' : "Sounds/082 - Magneton.wav",
 'Nome' : "Magneton", 'Tipo_1' : "Elétrico", 'Tipo_2' : "Aço",
 'Peso' : 60, 'Altura' : 1,
 'Descricao' : "Pokémon Magnético",
@@ -955,16 +956,17 @@ pokemon_lista = [
 'Sprite' : "Sprites/120.png",
 'Som' : "Sounds/120 - Staryu.wav",
 'Nome' : "Satryu", 'Tipo_1' : "Água", 'Tipo_2' : "",
+'Peso' : 34.5, 'Altura' : 0.8,
 'Descricao' : "Pokémon Estrela",
 'Info' : "Enquanto seu núcleo vermelho permanecer, ele poderá regenerar seu corpo instantaneamente, mesmo que seja dilacerado"},
 
 {'ID' : 121,
-'Sprites' : "Sprites/121.png",
+'Sprite' : "Sprites/121.png",
 'Som' : "Sounds/121 - Starmie.wav",
 'Nome' : "Starmie", 'Tipo_1' : "Psíquico", 'Tipo_2' : "Água",
 'Peso' : 80, 'Altura' : 1.1,
 'Descricao' : "Pokémon Misterioso",
-'Infon' : "Seu núcleo brilha em várias cores e envia sinais de rádio ao espaço para se comunicar com alguma coisa"},
+'Info' : "Seu núcleo brilha em várias cores e envia sinais de rádio ao espaço para se comunicar com alguma coisa"},
 
 {'ID' : 122,
 'Sprite' : "Sprites/122-m.png",
@@ -983,7 +985,7 @@ pokemon_lista = [
 'Info' : "As foices afiadas em seus antebraços se tornam cada vez mais nítidas cortando objetos duros"},
 
 {'ID' : 124,
-'Sprite' : "Sprites/.png",
+'Sprite' : "Sprites/124.png",
 'Som' : "Sounds/124 - Jynx.wav",
 'Nome' : "Jynx", 'Tipo_1' : "Psíquico", 'Tipo_2' : "Gelo",
 'Peso' : 40.6, 'Altura' : 1.4,
@@ -1056,7 +1058,7 @@ pokemon_lista = [
 
 {'ID' : 133,
 'Sprite' : "Sprites/133-m.png",
-'Som' : "Sounds/133 - Eevee",
+'Som' : "Sounds/133 - Eevee.wav",
 'Nome' : "Eevee", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 6.5, 'Altura' : 0.3,
 'Descricao' : "Pokémon Evolunção",
@@ -1090,7 +1092,7 @@ pokemon_lista = [
 'Sprite' : "Sprites/137.png",
 'Som' : "Sounds/137 - Porygon.wav",
 'Nome' : "Porygon", 'Tipo_1' : "Normal", 'Tipo_2' : "",
-'Peso' : 36.5, 'Alutra' : 0.8,
+'Peso' : 36.5, 'Altura' : 0.8,
 'Descricao' : "Pokémon Virtual",
 'Info' : "Um Pokémon criado pelo homem, usando meios científicos avançados. Pode se mover livremente no ciberespaço"},
 
@@ -1143,8 +1145,8 @@ pokemon_lista = [
 'Info' : "Quando a barriga está cheia, torna-se letárgico demais para levantar um dedo, por isso é seguro saltar sobre a barriga"},
 
 {'ID' : 144,
-'Sprite' : "Sprite/144.png",
-'Som' : "Sound/144 - Articuno.wav",
+'Sprite' : "Sprites/144.png",
+'Som' : "Sounds/144 - Articuno.wav",
 'Nome' : "Articuno", 'Tipo_1' : "Gelo", 'Tipo_2' : "Gelo",
 'Peso' : 55.4, 'Altura' : 1.7,
 'Descricao' : "Pokémon Congelante",
@@ -1152,8 +1154,8 @@ pokemon_lista = [
 
 {'ID' : 145,
 'Sprite' : "Sprites/145.png",
-'Som' : "Sounds/145 - Zaptos.wav",
-'Nome' : "Zaptos", 'Tipo_1' : "Életrico", 'Tipo_2' : "Voador",
+'Som' : "Sounds/145 - Zapdos.wav",
+'Nome' : "Zapdos", 'Tipo_1' : "Életrico", 'Tipo_2' : "Voador",
 'Peso' : 52.6, 'Altura' : 1.6,
 'Descricao' : "Pokémon Choque Elétrico",
 'Info' : "Um Pokémon lendário que se diz viver em nuvens de trovoada. Controla livremente os raios"},
