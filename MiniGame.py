@@ -4,7 +4,7 @@ import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
 import pygame
-import threading
+import time
 
 root = Tk()
 root.title('Quem é este Pokémon?')
@@ -53,8 +53,8 @@ def descobre():
         
         coins+=1
         
-        timer = threading.Timer(2.0,gera_pokemon)
-        timer.start()
+        time.sleep(2)
+        gera_pokemon()
         
         print(f'funfou {coins}')
         
