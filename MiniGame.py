@@ -32,18 +32,14 @@ def gera_pokemon():
     render = ImageTk.PhotoImage(file = imagem_pokemon)
     img["image"] = render
     img.image = render
-    
 
-    r1['text'] = str(f'{pokemon_lista[indice]["Nome"]}')
-    r1['value'] = str(f'{pokemon_lista[indice]["Nome"]}') 
+    random_indices = [indice, false_indice_1, false_indice_2]
+    shuffle(random_indices)
     
-    r2['text'] = str(f'{pokemon_lista[false_indice_1]["Nome"]}')
-    r2['value'] = str(f'{pokemon_lista[false_indice_1]["Nome"]}') 
-    
-    r3['text'] = str(f'{pokemon_lista[false_indice_2]["Nome"]}')
-    r3['value'] = str(f'{pokemon_lista[false_indice_2]["Nome"]}') 
-    
-       
+    for indice, rs in zip(random_indices, [r1, r2, r3]):
+            rs['text'] = f'{pokemon_lista[indice]["Nome"]}'
+            rs['value'] = f'{pokemon_lista[indice]["Nome"]}'
+   
     return pokemon,indice
     
 def descobre():
@@ -108,6 +104,8 @@ r2.place(x = 120, y = 280)
 r3 = Radiobutton(text = '?????',value = '',variable = i)
 r3.pack()
 r3.place(x = 235, y = 280)
+
+
 
 btn = Button(text = 'inserir',command = descobre)
 btn.pack()
