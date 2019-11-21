@@ -17,6 +17,13 @@ coins = 3
 
 
 def gera_pokemon():
+    
+    pygame.init()
+    pygame.mixer.music.load('whos.mp3')
+    pygame.mixer.music.play()
+    
+    time.sleep(0.5)
+    
     global indice
     
     indice = randint(0, 150)
@@ -39,6 +46,7 @@ def gera_pokemon():
     for indice, rs in zip(random_indices, [r1, r2, r3]):
             rs['text'] = f'{pokemon_lista[indice]["Nome"]}'
             rs['value'] = f'{pokemon_lista[indice]["Nome"]}'
+   
    
     return pokemon,indice
     
