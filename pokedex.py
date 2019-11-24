@@ -391,7 +391,7 @@ pokemon_lista = [
 
 {'ID' : 27,
 'Sprite' : "Sprites/027-m.png",
-'Som' : "Sounds/027 - SandShrew.wav",
+'Som' : "Sounds/027 - Sandshrew.wav",
 'Nome' : "Sandshrew", 'Tipo_1' : "Terra", 'Tipo_2' : "",
 'Peso' : 12, 'Altura' : 0.6,
 'HP' : 50,
