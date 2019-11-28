@@ -11,7 +11,8 @@ root.title("POKEDEX")
 class Application:
     
     def __init__(self,master=None):
-
+    
+        #Troca dinamicamente as dados dos pokemon a cada item selecionado
         def pega_POKEMON(listagem_pokemon): #função que executada ao clicar em um elemento da listbox com botão direito do mouse
             pokemon = listagem_pokemon.widget #selecionando o widget da listBox para selecionar um item apenas
             index = int(pokemon.curselection()[0]) #função index utilizada para pegar o index e comparar com a da lista de pokemon
@@ -46,10 +47,11 @@ class Application:
             tipo_pokemon_1 = str(f'{pokemon_lista[index]["Tipo_1"]}') #Varivel onde está guardado a formatação do index pego pelo bind na listbox
             tipo["text"] = str(tipo_pokemon_1) #Substituição do valor no tipo que é apresentado na tela dinamicamente
 
-            #estrututas de decisão que colocam cores respectivamente ao tipo do pokemon
-            
+            #dict com tipos e suas cores respectivas
             type_pokemon  = {'Fogo' : '#ED6D12', 'Água' : '#4578ED', 'Planta' : '#69C23D', 'Voador' : '#8E6FEB', 'Normal' : '#9C9C63', 'Elétrico' : '#F6C913', 'Terra' : '#DBB54D', 'Aço' : '#A0A0C0', 'Inseto' : '#97A51D', 'Rocha' : '#A48F32', 'Gelo' : '#7ECECE', 'Lutador' : '#AE2A24', 'Venenoso' : '#923A92', 'Noturno' : '#644E40', 'Fantasma' : '#655E88', 'Dragão' : '#5E1DF7', 'Psíquico' : '#F73670', 'Fada' : '#e87890'}
             
+            
+            #estrututas de decisão que colocam cores respectivamente ao tipo do pokemon
             if tipo_pokemon_1 in type_pokemon:
                 box_tipo_one["bg"] = type_pokemon[tipo_pokemon_1]
                 tipo["bg"] = type_pokemon[tipo_pokemon_1]
@@ -63,11 +65,10 @@ class Application:
                 tipo_secundario["bg"] = '#FFFAFA'
 
             elif tipo_pokemon_2 != "":
-
+        
                 if tipo_pokemon_2 in type_pokemon:
                     box_tipo_two["bg"] = type_pokemon[tipo_pokemon_2]
                     tipo_secundario["bg"] = type_pokemon[tipo_pokemon_2]
-        #Troca dinamicamente as dados dos pokemon a cada item selecionado
              
 
         layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
@@ -186,5 +187,6 @@ class Application:
         text_box.create_window(150,50, window = info )
 
 root.geometry("500x520+10+10") #funçaõ para definir o tamanho que a tela será aberta
+root.resizable(0,0)
 Application(root)
 root.mainloop() # mantém a interface ligada rodando o codigo, que só fechado quando precionado o botão fechar

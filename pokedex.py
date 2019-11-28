@@ -1487,6 +1487,3 @@ pokemon_lista = [
 'Descricao' : "Pokémon de Nova Espécie",
 'Info' : "Um Pokémon criado pela recombinação dos genes de Mews. Diz-se que ele tem o coração mais selvagem entre os Pokemons"}
 ]
-
-# for id_pokemon, pokemon in enumerate(pokemon_lista):
-#          print(f'#{id_pokemon + 1:0>3} - {pokemon["Tipo_1"]} / {pokemon["Tipo_2"]}')
