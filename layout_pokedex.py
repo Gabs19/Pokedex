@@ -2,6 +2,7 @@ from tkinter import *
 import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
+import os
 import pygame
 
 root = Tk()
@@ -22,6 +23,14 @@ class Application:
             peso["text"] = str(f'{pokemon_lista[index]["Peso"]} kg')
             descricao["text"] = str(f'{pokemon_lista[index]["Descricao"]}')
             info["text"] = str(f'{pokemon_lista[index]["Info"]}')
+            ataque["text"] = str(f'{pokemon_lista[index]["Ataque"]}')
+            defesa["text"] = str(f'{pokemon_lista[index]["Defesa"]}')
+            #velocidade["text"] = str(f'{pokemon_lista[index]["Velocidade"]}')
+            #sp_ataque["text"] = str(f'{pokemon_lista[index]["Sp.Ataque"]}')
+            #sp_defesa["text"] = str(f'{pokemon_lista[index]["Sp.Defesa"]}')
+            #hab["text"] = str(f'{pokemon_lista[index]["Habitat"]}')
+            #habilidades["text"] = str(f'{pokemon_lista[index]["Habilidades"]}')
+
 
             #Troca dinamicamente as imagens dos pokemon a cada item selecionado
             render = ImageTk.PhotoImage(file = pokemon_lista[index]['Sprite'])
@@ -34,7 +43,7 @@ class Application:
             Pokemon_sound.play()
 
 
-            #Toca o som de cada pokemon de acordo com o click no botão é cry
+            #Toca o som de cada pokemon de acordo com o click no botão cry
             def cry_pokemon():
                 Pokemon_sound.play()
 
@@ -69,7 +78,15 @@ class Application:
                 if tipo_pokemon_2 in type_pokemon:
                     box_tipo_two["bg"] = type_pokemon[tipo_pokemon_2]
                     tipo_secundario["bg"] = type_pokemon[tipo_pokemon_2]
-             
+
+        # Botão que ao clicar abre o mini jogo   
+        def open_game():
+            os.system('MiniGame.py')
+
+        game_button = Button(text = "MiniGame", command = open_game)
+        game_button.pack()
+        game_button.place(x = 310, y = 350)
+
 
         layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
         layout_superior.configure(bg = 'red') #cor da label superior
@@ -161,17 +178,40 @@ class Application:
         heigth.configure(font = 'times 12 bold')
         heigth.place(x = 310, y = 170 )
 
-        altura = Label(text = "??? m")
+        altura = Label(text = "???? m")
         altura.configure(font = 'times 12')
         altura.place(x = 370, y = 170)
 
-        habitat = Label(text = "Habitat:")
-        habitat.configure(font = 'times 12 bold')
-        habitat.place(x = 175, y = 200)
+        attack = Label(text = "Ataque:")
+        attack.configure(font = 'times 12 bold')
+        attack.place(x = 175, y = 200)
 
-        habilidades = Label(text = "Habilidades:")
-        habilidades.configure(font = 'times 12 bold')
-        habilidades.place(x = 175, y = 230)
+        ataque = Label(text = "????")
+        ataque.configure(font = 'times 12')
+        ataque.place(x = 230, y = 200)
+
+        defense = Label(text = "Defesa:")
+        defense.configure(font = 'times 12 bold')
+        defense.place(x = 175, y = 230)
+
+        defesa = Label(text = "????")
+        defesa.configure(font = 'times 12')
+        defesa.place(x = 230, y = 230)
+
+
+        #habitat = Label(text = "Habitat:")
+        #habitat.configure(font = 'times 12 bold')
+        #habitat.place(x = 175, y = 200)
+
+        #habilidades = Label(text = "Habilidades:")
+        #habilidades.configure(font = 'times 12 bold')
+        #habilidades.place(x = 175, y = 260)
+
+        #habilities = Label(text = "????")
+        #habilities.configure(font = 'times 12')
+        #habilities.place(x = 230, y = 230)
+
+
 
         text_box = Canvas()
         text_box.pack()
