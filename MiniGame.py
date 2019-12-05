@@ -85,7 +85,6 @@ def descobre():
     
     coin['text'] = str(f'Coins: {coins}')
 
-
 start = Button(text = 'Start', command = gera_pokemon)
 start.pack()
 start.place(x = 10, y = 20)
