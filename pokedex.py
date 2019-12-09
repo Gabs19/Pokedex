@@ -11,6 +11,7 @@ pokemon_lista = [
 'Sp.Ataque' : 65,
 'Sp.Defesa' : 65,
 'Habitat' : "Pradaria",
+'Habilidades' : "Clorofila, Crescimento",
 'Descricao' : "Pokemon Semente",
 'Info' : """Por algum tempo após seu nascimento,cresce  ao se alimentar das sementes nas costas""" },
 
@@ -26,6 +27,7 @@ pokemon_lista = [
 'Sp.Ataque' : 80,
 'Sp.Defesa' : 80,
 'Habitat' : "Pradaria",
+'Habilidades' : "Clorofila, Supercrescimento",
 'Descricao' : "Pokemon Semente",
 'Info' : "Quando o botão nas costas começa a inchar, um aroma doce flutua para indicar as flores que florescem" },
 
@@ -41,6 +43,7 @@ pokemon_lista = [
 'Sp.Ataque' : 100,
 'Sp.Defesa' : 100,
 'Habitat' : "Pradaria",
+'Habilidades' : "Clorofila, Supercrescimento", 
 'Descricao' : "Pokemon Semente",
 'Info' : "Após um dia chuvoso, a flor nas costas cheira mais forte. O perfume atrai outros Pokémon" },
 
@@ -56,6 +59,7 @@ pokemon_lista = [
 'Sp.Ataque' : 60,
 'Sp.Defesa' : 50,
 'Habitat' : "Montanha", 
+'Habilidades' : "Chama, Energia solar",
 'Descricao' : "Pokemon Lagarto",
 'Info' : "O fogo na ponta da cauda é uma medida da sua vida. Se saudável, sua cauda queima intensamente"},
 
@@ -71,6 +75,7 @@ pokemon_lista = [
 'Sp.Ataque' : 80,
 'Sp.Defesa' : 65,
 'Habitat' : 'Montanha',  
+'Habilidades' : "Chama, Energia solar",
 'Descricao' : "Pokemon Chamas",
 'Info' : "Nas montanhas rochosas onde Charmeleon vive, suas caudas ardentes brilham à noite como estrelas" },
 
@@ -86,6 +91,7 @@ pokemon_lista = [
 'Sp.Ataque' : 109,
 'Sp.Defesa' : 85,
 'Habitat' : "Montanha",  
+'Habilidades' : "Chama, Energia solar",
 'Descricao' : "Pokemon Chamas",
 'Info' : "Dizem que o fogo dos Charizards queima mais quente se tiver passado por batalhas duras" },
 
@@ -101,6 +107,7 @@ pokemon_lista = [
 'Sp.Ataque' : 50,
 'Sp.Defesa' : 64,
 'Habitat' : "A beira da água", 
+'Habilidades' : "Prato de chuva, Torrent",
 'Descricao' : "Pokemon Tartaura-jovem",
 'Info' : "Ele se abriga em sua concha e depois revida com bicos de água a cada oportunidade"},
 
@@ -116,6 +123,7 @@ pokemon_lista = [
 'Sp.Ataque' : 65,
 'Sp.Defesa' : 80,
 'Habitat' : "A beira da água",  
+'Habilidades' : "Prato de chuva, Torrent",
 'Descricao' : "Pokemon tartaruga",
 'Info' : "Diz-se que vive 10.000 anos.Sua cauda peluda é popular como um símbolo da longevidade" },
 
@@ -127,10 +135,11 @@ pokemon_lista = [
 'HP' : 79,
 'Ataque' : 83,
 'Defesa' : 100,
-'Velociade' : 78,
+'Velocidade' : 78,
 'Sp.Ataque' : 85,
 'Sp.Defesa' : 105,
 'Habitat' : "A beira da água", 
+'Habilidades' : "Prato de chuva, Torrent",
 'Descricao' : "Pokemon Concha",
 'Info' : "Os jatosde água que jorra dos canhões de foguetes em sau concha podem perfurar aço espesso"
 },
@@ -143,10 +152,11 @@ pokemon_lista = [
 'HP' : 45,
 'Ataque' : 45,
 'Defesa' : 35,
-'Velocidae' : 45,
+'Velocidade' : 45,
 'Sp.Ataque' : 20,
 'Sp.Defesa' : 20,
 'Habitat' : "Floresta", 
+'Habilidades' : "Poeira de escudo",
 'Descricao' : "Pokemon Lagarta",
 'Info' : "Ele libera um fedor de sua antena vermelha para repelir os inimigos. Cresce mudando repetidamente" },
 
@@ -156,12 +166,13 @@ pokemon_lista = [
 'Nome' : "Metapode", 'Tipo_1' : "Inseto", 'Tipo_2' : "",
 'Peso' :  9.9, 'Altura': 0.7 ,
 'HP' : 50,
-'Ataque' : 20,
-'Defense' : 55,
+'Ataque' : 20,  
+'Defesa' : 55,
 'Velocidade' : 30,
 'Sp.Ataque' : 25,
 'Sp.Defesa' : 25,
 'Habitat' : "FLoresta",
+'Habilidades' : "Pele de galpão",
 'Descricao' : "Pokemon Crisálida",
 'Info' : "Uma concha de aço duro protege seu corpo sensível. Ele silenciosamente suporta dificuldades enquanto aguarda a evolução" },
 
@@ -173,10 +184,12 @@ pokemon_lista = [
 'Descricao' : "Pokemon Borboleta",
 'HP' : 60,
 'Ataque' : 45,
-'Velocidde' : 70,
+'Defesa' : 50,
+'Velocidade' : 70,
 'Sp.Ataque' : 90,
 'Sp.Defesa' : 80,
 'Habitat' : "Floresta",
+'Habilidades' : "Olhos compostos, Lentes coloridas",
 'Info' : "Ele Adora o mel das flores e pode localizar manchas de flores que possuem quantidades minúsculas de pólen"},
 
 {'ID' : 13,
@@ -191,6 +204,7 @@ pokemon_lista = [
 'Sp.Ataque' : 20,
 'Sp.Defesa' : 20,
 'Habitat' : "Floresta",
+'Habilidades' : "Poeira de proteção, Fuga",
 'Descricao' : "Pokemon Lagarta Peluda",
 'Info' : 'Come seu peso nas folhas todos os dias. Afasta os atacantes com a agulha na cabeça'},
 
@@ -206,6 +220,7 @@ pokemon_lista = [
 'Sp.Ataque' : 25,
 'Sp.Defesa' : 25,
 'Habitat' : "Floresta",
+'Habilidades' : "Pele de galpão",
 'Descricao' : "Pokemon Pupa",
 'Info' : "Enquanto aguarda a evolução, esconde-se de predadores sob folhas e em recantos de galhos"},
 
@@ -221,6 +236,7 @@ pokemon_lista = [
 'Sp.Ataque' : 45,
 'Sp.Defesa' : 80,
 'Habitat' : "Floresta",
+'Habilidades' : "Enxame, Atirador",
 'Descricao' : "Pokemon Abelha venenosa",
 'Info' : "Seu melhor ataque envolve voar em alta velocidade, golpear com agulhas de veneno e depois voar"},
 
@@ -236,6 +252,7 @@ pokemon_lista = [
 'Sp.Ataque' : 35,
 'Sp.Defesa' : 35,
 'Habitat' : "Floresta",
+'Habilidades' : "Olho afiado, Pés emaranhados",
 'Descricao' : "Pokemon Passarinho",
 'Info' : "É dócil e prefere evitar conflitos. Se pertubardo, no entanto, pode ferozmente reagir"},
 
@@ -251,6 +268,7 @@ pokemon_lista = [
 'Sp.Ataque' : 50,
 'Sp.Defesa' : 50,
 'Habitat' : "Floresta",
+'Habilidades' : "Olho afiado, Pés emaranhados",
 'Descricao' : "Pokemon Passaro",
 'Info' : "Voa sobre sue vasto território em busca de presas, derrubando-o com suas garras altamente desenvolvidas"},
 
@@ -266,6 +284,7 @@ pokemon_lista = [
 'Sp.Ataque' : 70,
 'Sp.Defesa' : 70,
 'Habitat' : "Floresta",
+'Habilidades' : "Olho afiado, Pés emaranhados",
 'Descricao' : "Pokemon Passaro",
 'Info' : "Voa sobre sue vasto território em busca de presas, derrubando-o com suas garras altamente desenvolvidas"},
 
@@ -281,6 +300,7 @@ pokemon_lista = [
 'Sp.Ataque' : 25,
 'Sp.Defesa' : 35,
 'Habitat' : "Pradaria",
+'Habilidades' : "Fugitivo, Hustle, Guts",
 'Descricao' : "Pokemon rato",
 'Info' : "Ele procura comida o dia todo. Roe obejtos duros para desgastar suas presas, que crescem constantemente durante sua vida"},
 
@@ -296,6 +316,7 @@ pokemon_lista = [
 'Sp.Ataque' : 50,
 'Sp.Defesa' : 70,
 'Habitat' : "Pradaria",
+'Habilidades' : "Fugitivo, Hustle, Guts",
 'Descricao' : "Pokemon Ratazana",
 'Info' : "Com suas presas longas, este pokemon surpreendemente viloento pode roer até mesmo concreto espesso com facilidade"},
 
@@ -311,6 +332,7 @@ pokemon_lista = [
 'Sp.Ataque' : 31,
 'Sp.Defesa' : 31,
 'Habitat' : "Terrenos Acidenntados",
+'Habilidades' : "Atento, Atirador",
 'Descricao' : "Pokemon Passarinho",
 'Info' : "Bate suas pequenas asas ocupadas para voar. Usando o bico, ele procura presas na grama"},
 
@@ -326,6 +348,7 @@ pokemon_lista = [
 'Sp.Ataque' : 61,
 'Sp.Defesa' : 61,
 'Habitat' : "Terrenos Acidentados",
+'Habilidades' : "Atento, Atirador",
 'Descricao' : 'Pokemon Bico',
 'Info' : "Ele tem resistência para voar o dia inteiro em suas asas largas. Ele luta usando seu bico afiado"},
 
@@ -341,6 +364,7 @@ pokemon_lista = [
 'Sp.Ataque' : 40,
 'Sp.Defesa' : 54,
 'Habitat' : "Pradaria",
+'Habilidades' : "Intimidado, Pele de Galpão, Irritador",
 'Descricao' : "Pokemon Serpente",
 'Info' : "Ele foge pela grama sem emitir nenhum som e atinge presas desavisadas por trás"},
 
@@ -356,6 +380,7 @@ pokemon_lista = [
 'Sp.Ataque' : 65,
 'Sp.Defesa' : 79,
 'Habitat' : "Pradaria",
+'Habilidades' : "Intimidado, Pele de Galpão, Irritador",
 'Descricao' : "Pokemon Serpente",
 'Info' : "O padrão em sua barriga é de intimidação. Ele restringe os inimigos enquanto eles estão congelados de medo"},
 
@@ -371,6 +396,7 @@ pokemon_lista = [
 'Sp.Ataque' : 50,
 'Sp.Defesa' : 50,
 'Habitat' : "Floresta",
+'Habilidades' : "Estático, Raio Elétrico",
 'Descricao' : "Pokemon rato elétrico",
 'Info' : "Ocasionalmente, usa um choque elétrico para recarregar um companheiro Pikachu que está em um estado enfraquecido"},
 
@@ -386,6 +412,7 @@ pokemon_lista = [
 'Sp.Ataque' : 90,
 'Sp.Defesa' : 80,
 'Habitat' : "Floresta", 
+'Habilidades' : "Estático, Raio Elétrico",
 'Descricao' : "Pokemon rato elétrico",
 'Info' : "Sua cauda descarrega eletricidade no chão, protegendo-a de ficar chocada"},
 
@@ -401,6 +428,7 @@ pokemon_lista = [
 'Sp.Ataque' : 20,
 'Sp.Defesa' : 30,
 'Habitat' : "Terrenos Acidentados",
+'Habilidades' : "Areia-véu, Areia-rush",
 'Descricao' : "Pokemon Tatu",
 'Info' :"Cava tocas profundas para viver. Quando em perigo, enrola o corpo para resistir a ataques"},
 
@@ -416,6 +444,7 @@ pokemon_lista = [
 'Sp.Ataque' : 45,
 'Sp.Defesa' : 55,
 'Habitat' : "Terrenos Acidentados",
+'Habilidades' : "Areia-véu, Areia-rush",
 'Descricao' : "Pokemon Tatu",
 'Info' : "Os espigões em seu corpo são compostos de sua pele endurecida. Ele rola e ataca os inimigos com seus espinhos"},
 
@@ -431,6 +460,7 @@ pokemon_lista = [
 'Sp.Ataque' : 40,
 'Sp.Defesa' : 40,
 'Habitat' : "Pradaria", 
+'Habilidades' : "Ponto de Veneno, Rivalidade",
 'Descricao' : "Pokemon agulha venenosa",
 'Info' : "Embora não prefira lutar, mesmo uma gota do veneno que secreta das farpas pode ser fatal"},
 
@@ -446,6 +476,7 @@ pokemon_lista = [
 'Sp.Ataque' : 55,
 'Sp.Defesa' : 55,
 'Habitat' : "Pradaria",
+'Habilidades' : "Ponto de Veneno, Agitação, Rivalidade",
 'Descricao' : "Pokemon agulha venenosa",
 'Info' : "Quando percebe o perigo, levanta todas as farpas do corpo. Essas farpas crescem mais lentamente que Nidorinos"},
 
@@ -461,6 +492,7 @@ pokemon_lista = [
 'Sp.Ataque' : 75,
 'Sp.Defesa' : 85,
 'Habitat' : "Pradaria",
+'Habilidades' : "Ponto de Veneno, Rivalidade, Força Total",
 'Descricao' : "Pokemon Broca",
 'Info' : "Seu corpo inteiro é blindado com escamas duras. Protegerá os jovens em sua toca com sua vida."},
 
@@ -476,6 +508,7 @@ pokemon_lista = [
 'Sp.Ataque' : 40,
 'Sp.Defesa' : 40,
 'Habitat' : "Pradaria",
+'Habilidades' : "Ponto de Veneno, Agitação, Rivalidade",
 'Descricao' : "Pokemon agulha venenosa",
 'Info' : "Ele examina seus arredores levantando as orelhas para fora da grama. Seu chifre tóxico é para proteção"},
 
@@ -491,6 +524,7 @@ pokemon_lista = [
 'Sp.Ataque' : 55,
 'Sp.Defesa' : 55,
 'Habitat' : "Pradaria",
+'Habilidades' : "Ponto de Veneno, Agitação, Rivalidade",
 'Descricao' : "Pokemon agulha venenosa",
 'Info' : "Tem uma disposição violenta e apunhala os inimigos com seu chifre, que exala veneno após o impacto"},
 
@@ -506,6 +540,7 @@ pokemon_lista = [
 'Sp.Ataque' : 85,
 'Sp.Defesa' : 75,
 'Habitat' : "Pradaria",
+'Habilidades' : "Ponto de Veneno, Agitação, Rivalidade",
 "Descricao" : "Pokemon Broca",
 'Info' : "Um balanço de sua poderosa cauda pode quebrar um poste telefônico como se fosse um palito de fósforo"},
 
@@ -521,6 +556,7 @@ pokemon_lista = [
 'Sp.Ataque' : 60,
 'Sp.Defesa' : 65,
 'Habitat' : "Montanha", 
+'Habilidades' : "Charme fofo, Guarda mágico, Guarda amigo",
 'Descricao' : "Pokemon Fada",
 'Info' : "Nas noites de lua cheia, Clefairy se reúne e dança. Tomar banho ao luar os faz flutuar"},
 
@@ -536,6 +572,7 @@ pokemon_lista = [
 'Sp.Ataque' : 95,
 'Sp.Defesa' : 90,
 'Habitat' : "Montanha", 
+'Habilidades' : "Charme fofo, Guarda mágica, Inconsciente",
 'Descricao' : "Pokemon Fada",
 'Info' : "Seus ouvidos são sensíveis o suficiente para ouvir um alfinete cair a mais de um quilômetro de distância, então geralmente são encontrados em locais calmos"},
 
@@ -551,6 +588,7 @@ pokemon_lista = [
 'Sp.Ataque' : 50,
 'Sp.Defesa' : 65,
 'Habitat' : "Pradaria",
+'Habilidades' : "Fogo instantâneo, Seca",
 'Descricao' : "Pokemon Raposa",
 'Info' : "À medida que cada cauda cresce, seu pêlo se torna mais brilhante. Quando segurado, parece um pouco quente"},
 
@@ -566,6 +604,7 @@ pokemon_lista = [
 'Sp.Ataque' : 81,
 'Sp.Defesa' : 100,
 'Habitat' : "Pradaria",
+'Habilidades' : "Fogo instantâneo, Seca",
 'Descricao' : "Pokemon Raposa",
 'Info' : "Cada uma de suas nove caudas é imbuída de poder sobrenatural e pode viver por mil anos"},
 
@@ -581,6 +620,7 @@ pokemon_lista = [
 'Sp.Ataque' : 45,
 'Sp.Defesa' : 25,
 'Habitat' : "Pradaria",
+'Habilidades' : "Charme fofo, Guarda amigo",
 'Descricao' : "Pokemon Balao",
 'Info' : "Olhar para seus olhos redondos e bonitos faz com que comece a cantar uma música que os ouvintes agradáveis ​​não podem deixar de adormecer"},
 
@@ -596,6 +636,7 @@ pokemon_lista = [
 'Sp.Ataque' : 85,
 'Sp.Defesa' : 50,
 'Habitat' : "Pradaria",
+'Habilidades' : "Charme bonito, Frisk",
 'Descricao' : "Pokemon Balao",
 'Info' : "Sua pele fina é tão agradável que aqueles que a tocam acidentalmente não conseguem tirar as mãos"},
 
@@ -604,6 +645,13 @@ pokemon_lista = [
 'Som' : "Sounds/041 - Zubat.wav",
 'Nome' : "Zubat", 'Tipo_1' : "Venenoso", 'Tipo_2': "Voador",
 'Peso' : 7.5, 'Altura' : 0.8,
+'Ataque' : 45,
+'Defesa' : 35,
+'Velocidade' : 55,
+'Sp.Ataque' : 30,
+'Sp.Defesa' : 40,
+'Habitat' : "Caverna",
+'Habilidades' : "Foco interno, Infiltrador",
 'Descricao' : "Pokemon Morcego",
 'Info' : "Ele não precisa de olhos, porque emite ondas ultrassônicas para verificar seus arredores enquanto voa"},
 
@@ -612,6 +660,13 @@ pokemon_lista = [
 'Som' : "Sounds/042 - Golbat.wav",
 'Nome' : "Golbat", 'Tipo_1' : "Venenoso", 'Tipo_2' : "Voador",
 'Peso' : 55, 'Altura' : 1.6,
+'Ataque' : 80,
+'Defesa' : 70,
+'Velocidade' : 90,
+'Sp.Ataque' : 65,
+'Sp.Defesa' : 75,
+'Habitat' : "Caverna",
+'Habilidades' : "Foco interno, Infiltrador",
 'Descricao' : "Pokemon Morcego",
 'Info' : "Voando na calada da noite, afunda suas presas em suas presas e drena uma quantidade quase fatal de sangue"},
 
@@ -620,6 +675,13 @@ pokemon_lista = [
 'Som' : "Sounds/043 - Oddish.wav",
 'Nome' : "Oddish", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 5.4, 'Altura' : 0.5,
+'Ataque' : 50,
+'Defesa' : 55,
+'Velocidade' : 30,
+'Sp.Ataque' : 75,
+'Sp.Defesa' : 65,
+'Habitat' : "Pradaria",
+'Habilidades' : "Clorofila, Fuga",
 'Descricao' : 'Pokemon Erva',
 'Info' : "Costuma plantar os pés de raiz no chão durante o dia e semeia sementes enquanto caminha à noite"},
 
@@ -628,6 +690,13 @@ pokemon_lista = [
 'Som' : "Sounds/044 - Gloom.wav",
 'Nome' : "Gloom", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 8.6, 'Altura' : 0.8,
+'Ataque' : 65,
+'Defesa' : 70,
+'Velocidade' : 40,
+'Sp.Ataque' : 65,
+'Sp.Defesa' : 75,
+'Habitat' : "Pradaria",
+'Habilidades' : "Fedor, Clorofila",
 'Descricao' : "Pokemon Erva",
 'Info' : "O mel que escorre da boca cheira tão atroz que pode enrolar o nariz a mais de um quilômetro de distância"},
 
@@ -636,6 +705,13 @@ pokemon_lista = [
 'Som' : "Sounds/045 - Vileplume.wav",
 'Nome' : "Vileplume", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' : 18.6, 'Altura' : 1.2,
+'Ataque' : 80,
+'Defesa' : 85,
+'Velocidade' : 50,
+'Sp.Ataque' : 110,
+'Sp.Defesa' : 90,
+'Habitat' : "Pradaria",
+'Habilidades' : "Esporro de efeito, Clorofila",
 'Descricao' : "Pokemon Flor",
 'Info' : "Suas pétalas são as maiores do mundo. Enquanto caminha, espalha pólen extremamente alergênico"},
 
@@ -644,6 +720,13 @@ pokemon_lista = [
 'Som' : "Sounds/046 - Paras.wav",
 'Nome' : "Paras", 'Tipo_1' : "Planta", 'Tipo_2' : "Inseto",
 'Peso' : 5.4, 'Altura' : 0.3,
+'Ataque' : 70,
+'Defesa': 55,
+'Velocidade' : 25,
+'Sp.Ataque' : 45,
+'Sp.Defesa' : 55,
+'Habitat' : "Floresta",
+'Habilidades' : "Umido, Esporo de efeito, Pele seca",
 'Descricao' : "Pokemon Cogumelo",
 'Info' : "Cogumelos chamados tochukaso crescem nas costas. Eles crescem junto com o anfitrião Paras"},
 
@@ -652,6 +735,13 @@ pokemon_lista = [
 'Som' : "Sounds/047 - Parasect.wav",
 'Nome' : "Parasect", 'Tipo_1' : "Planta", 'Tipo_2': "Inseto",
 'Peso' : 29.5, 'Altura' : 1,
+'Ataque' : 95,
+'Defesa' : 80,
+'Velocidade' : 30,
+'Sp.Ataque' : 60,
+'Sp.Defesa' : 80,
+'Habitat' : "Floresta",
+'Habilidades' : "Umido, Esporo de efeito, Pele seca",
 'Descricao' : "Pokemon Cogumelo",
 'Info' : "Um cogumelo maior que o corpo hospedeiro controla o parasita. Espalha esporos venenosos"},
 
@@ -660,6 +750,13 @@ pokemon_lista = [
 'Som' : "Sounds/048 - Venonat.wav",
 'Nome' : "Venonat",  'Tipo_1' : "Inseto", 'Tipo_2': "Venenoso",
 'Peso' : 30, 'Altura' : 1,
+'Ataque' : 60,
+'Defesa' : 50,
+'Velocidade' : 45,
+'Sp.Ataque' : 40,
+'Sp.Defesa' : 55,
+'Habitat' : "Floresta",
+'Habilidades': "Olhos compostos, Fuga, Lentes coloridas",
 'Descricao' : "Pokemon Inseto",
 'Info' : "Seus grandes olhos são na verdade aglomerados de pequenos olhos. À noite, é atraído pela luz."},
 
@@ -668,6 +765,13 @@ pokemon_lista = [
 'Som' : "Sounds/049 - Venomoth.wav",
 'Nome' : "Venomoth", 'Tipo_1' : "Inseto", 'Tipo_2' : "Venenoso",
 'Peso' : 12.5, 'Altura' : 1.5,
+'Ataque' : 65,
+'Defesa' : 60,
+'Velocidade' : 90,
+'Sp.Ataque' : 90,
+'Sp.Defesa' : 75,
+'Habitat' : "Floresta",
+'Habilidades' : "Poeira de proteção, lente colorida, Pele maravilha",
 'Descricao' : "Pokemon traca venenosa",
 'Info' : "Ele bate as asas para espalhar escamas semelhantes a poeira. As escamas liberam toxinas se entrarem em contato com a pele"},
 
@@ -676,6 +780,12 @@ pokemon_lista = [
 'Som' : "Sounds/050 - Diglett.wav",
 'Nome' : "Diglett", 'Tipo_1' : "Terra", 'Tipo_2' : "",
 'Peso' : 0.8, 'Altura' : 0.2,
+'Ataque' : 55,
+'Defesa' : 25,
+'Velocidade' : 95,
+'Sp.Ataque' : 35,
+'Habitat' : "Caverna",
+'Habilidades' : "Véu de areia, Armadilha de arena, Força de areia",
 'Descricao' : "Pokemon Toupeira",
 'Info' : "Um Pokémon que vive no subsolo. Por causa de seu habitat escuro, é repelido pela luz do sol"},
 
@@ -684,6 +794,13 @@ pokemon_lista = [
 'Som' : "Sounds/051 - Dugtrio.wav",
 'Nome' : "Dugtrio", 'Tipo_1' : "Terra", 'Tipo_2' : "",
 'Peso' : 33.3, 'Altura' : 0.7,
+'Ataque' : 80,
+'Defesa' : 50,
+'Velocidade' : 120,
+'Sp.Ataque' : 50,
+'Sp.Defesa' : 70,
+'Habitat' : "Caverna",
+'Habilidades' : "Véu de areia, Armadilha de arena",
 'Descricao' : "Pokemon Toupeira",
 'Info' : 'Suas três cabeças se movem alternadamente, conduzindo-o através de solos difíceis a profundidades supeiores a 100 quilômetros'},
 
@@ -692,6 +809,13 @@ pokemon_lista = [
 'Som' : "Sounds/052 - Meowth.wav",
 'Nome' : "Meowth", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 4.2, 'Altura' : 0.4,
+'Ataque' : 45,
+'Defesa' : 35,
+'Velocidade' : 90,
+'Sp.Ataque' : 40,
+'Sp.Defesa' : 40,
+'Habitat' : "Urbano",
+'Habilidades' : "Pickup, Técnico, Unnerve",
 'Descricao' : "Pokemon Gatuno",
 'Info' : "É de natureza nortuna. Se encontrar algo brilhante, seus olhos brilham intensamente"},
 
@@ -700,6 +824,13 @@ pokemon_lista = [
 'Som' : "Sounds/053 - Persian.wav",
 'Nome' : "Persian", 'Tipo_1' : "Normal", 'Tipo_2' : "",
 'Peso' : 32, 'Altura' : 1,
+'Ataque' : 70,
+'Defesa' : 60,
+'Velocidade' : 115,
+'Sp.Ataque' : 65,
+'Sp.Defesa' : 65,
+'Habitat' : "Urbano",
+'Habilidades' : "Limber, Técnico, Unnerve",
 'Descricao' : "Pokemon Gato Siamês",
 'Info' : "Um pokémon muito arrogante. Entre os fãs, o tamanho da jóia em sua testa é um assunto muito discutido"},
 
