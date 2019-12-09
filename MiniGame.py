@@ -47,17 +47,23 @@ def gera_pokemon():
             rs['text'] = f'{pokemon_lista[indice]["Nome"]}'
             rs['value'] = f'{pokemon_lista[indice]["Nome"]}'
    
-   
+    
     return pokemon,indice
     
+        
 def descobre():
     global coins
     
-    if i.get() == pokemon:  
+    if pokemon_misterioso.get() == pokemon:  
+        
+        print ('olha')
+    
+        time.sleep(3)
         
         pygame.init()
         pokemon_sound = pygame.mixer.Sound(file = pokemon_lista[indice]['Som'])
         pokemon_sound.play()
+        
         
         coins+=1
         
@@ -99,17 +105,17 @@ img.configure(relief = 'groove', border = 3,bg = 'white')
 img['width'] = 200
 img['height'] = 200
 
-i = StringVar()
+pokemon_misterioso = StringVar()
 
-r1 =  Radiobutton(text = '?????', value = '', variable = i)
+r1 =  Radiobutton(text = '?????', value = '', variable = pokemon_misterioso)
 r1.pack()
 r1.place(x = 5, y = 280)
 
-r2 = Radiobutton(text = '?????', value = '', variable = i)
+r2 = Radiobutton(text = '?????', value = '', variable = pokemon_misterioso)
 r2.pack()
 r2.place(x = 120, y = 280)
 
-r3 = Radiobutton(text = '?????',value = '',variable = i)
+r3 = Radiobutton(text = '?????',value = '',variable = pokemon_misterioso)
 r3.pack()
 r3.place(x = 235, y = 280)
 

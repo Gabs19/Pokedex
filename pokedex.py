@@ -1,6 +1,7 @@
 pokemon_lista = [ 
 {'ID' : 1, 
 'Sprite' : "Sprites/001-m.png",
+'Sprite_sombreada' : "Sprites_shadow/001-m.png",
 'Som' : "Sounds/001 - Bulbasaur.wav",
 'Nome' : "Bulbasauro", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso",
 'Peso' :  6.9, 'Altura' : 0.7, 
@@ -17,6 +18,7 @@ pokemon_lista = [
 
 {'ID' : 2,
 'Sprite' : "Sprites/002-m.png",
+'Sprite_sombreada' : "Sprites_shadow/002-m.png",
 'Som' : "Sounds/002 - Ivysaur.wav",
 'Nome' : "Ivysauro", 'Tipo_1' : "Planta", 'Tipo_2' :"Venenoso", 
 'Peso' :  13, 'Altura' : 1, 
@@ -33,6 +35,7 @@ pokemon_lista = [
 
 {'ID' : 3, 
 'Sprite' : "Sprites/003-m.png",
+'Sprite_sombreada' : "Sprites_shadow/003-m.png",
 'Som' : "Sounds/003 - Venusaur.wav",
 'Nome' : "Venasauro", 'Tipo_1' : "Planta", 'Tipo_2' : "Venenoso", 
 'Peso' :  100, 'Altura' : 2, 
@@ -49,6 +52,7 @@ pokemon_lista = [
 
 {'ID' : 4, 
 'Sprite' : "Sprites/004-m.png",
+'Sprite_sombreada' : "Sprites_shadow/004-m.png",
 'Som' : "Sounds/004 - Charmander.wav",
 'Nome' : "Charmander", 'Tipo_1' : "Fogo", 'Tipo_2' : "",
 'Peso' :  8.5, 'Altura' : 0.6,

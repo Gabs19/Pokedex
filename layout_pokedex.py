@@ -97,7 +97,7 @@ class Application:
         listagem_pokemon.pack(side = LEFT, expand = False, fill = 'both') #localidade, expansão onde a div foi colocada
 
         div_1 = Scrollbar() #metodo de barra de rolagem
-        div_1.pack(side = RIGHT,fill = 'y') #posição que foi inserido
+        div_1.pack(side = RIGHT,fill = 'y') #posição que foi inserido, lado que ficara e posição vertical ou horizontal
         div_1.configure(command = listagem_pokemon.yview) #Ligado a div de listagem de pokemon
         listagem_pokemon.configure(yscrollcommand = div_1.set) #sentido da rolagem
         listagem_pokemon.bind('<<ListboxSelect>>', pega_POKEMON)
