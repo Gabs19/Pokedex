@@ -82,9 +82,12 @@ class Application:
         def open_game():
             os.system('MiniGame.py')
 
-        game_button = Button(text = "MiniGame", command = open_game)
+        game_button = Button(text = "MiniGame", command = open_game, height = 45, width = 65)
+        imagem_botao = PhotoImage(file = "MiniGame2.png")
+        game_button.configure(image = imagem_botao)
+        game_button.imagem = imagem_botao
         game_button.pack()
-        game_button.place(x = 400, y = 370)
+        game_button.place(x = 400, y = 120)
 
 
         layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
