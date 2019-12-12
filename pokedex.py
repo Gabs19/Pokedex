@@ -1887,7 +1887,7 @@ pokemon_lista = [
 'Sprite' : "Sprites/125-m.png",
 'Sprite_sombreada' : "Sprites_shadow/125-m.png",
 'Som' : "Sounds/125 - Electabuzz.wav",
-'Nome' : "Electabuzz", 'Tipo_1' : 'Életrico', 'Tipo_2' : "",
+'Nome' : "Electabuzz", 'Tipo_1' : 'Elétrico', 'Tipo_2' : "",
 'Peso' : 30, 'Altura' : 1.1,
 'Ataque' : 83,
 'Defesa' : 57,
