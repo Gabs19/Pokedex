@@ -1,5 +1,4 @@
 from tkinter import *
-import tkinter as tk
 from pokedex import pokemon_lista
 from PIL import Image,ImageTk
 import os
