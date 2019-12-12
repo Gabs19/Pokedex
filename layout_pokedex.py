@@ -111,12 +111,14 @@ class Application:
         img.image = render
 
         #Dados iniciais : imagem, nome, tipo.
+        # Imagem
         img = Label(image = render)
         img.place(x = 180 , y = 30)
         img.configure(relief = 'groove', border = 3,bg = 'white')
         img["width"] = 90
         img["height"] = 90
 
+        # Nome
         box_name = Canvas()
         box_name.pack()
         box_name.configure()
@@ -130,6 +132,7 @@ class Application:
         
         box_name.create_window(55,12, window = nome)
 
+        # Tipos
         box_tipo_one = Canvas()
         box_tipo_one.pack()
         box_tipo_one.configure()
@@ -165,6 +168,8 @@ class Application:
         div_6.place(x = 174, y = 140)
 
         #Dados detalhados
+
+        #Peso
         weight = Label(text = 'Peso:')
         weight.configure(font = 'times 12 bold')
         weight.place(x = 175, y = 170)
@@ -173,6 +178,7 @@ class Application:
         peso.configure(font = 'times 12')
         peso.place(x = 230, y = 170)
         
+        #Altura
         heigth = Label(text = 'Altura:')
         heigth.configure(font = 'times 12 bold')
         heigth.place(x = 310, y = 170 )
@@ -181,75 +187,84 @@ class Application:
         altura.configure(font = 'times 12')
         altura.place(x = 370, y = 170)
 
+        #Ataque 
         attack = Label(text = "Ataque:")
         attack.configure(font = 'times 12 bold')
         attack.place(x = 175, y = 200)
 
         ataque = Label(text = "????")
         ataque.configure(font = 'times 12')
-        ataque.place(x = 230, y = 200)
+        ataque.place(x = 250, y = 200)
 
+        # Defesa
         defense = Label(text = "Defesa:")
         defense.configure(font = 'times 12 bold')
-        defense.place(x = 175, y = 230)
+        defense.place(x = 310, y = 200)
 
         defesa = Label(text = "????")
         defesa.configure(font = 'times 12')
-        defesa.place(x = 230, y = 230)
+        defesa.place(x = 370, y = 200)
 
+        #Especial Ataque
         sp_attack = Label(text = "Sp.Ataque:")
         sp_attack.configure(font = 'times 12 bold')
-        sp_attack.place(x = 175, y = 260)
+        sp_attack.place(x = 175, y = 230)
 
         sp_ataque = Label(text = "????")
         sp_ataque.configure(font = 'times 12')
-        sp_ataque.place(x = 260, y = 260)
+        sp_ataque.place(x = 260, y = 230)
 
-        sp_defense = Label(text = "Sp.Defesa")
+        #Especial Defesa
+        sp_defense = Label(text = "Sp.Defesa:")
         sp_defense.configure(font = 'times 12 bold')
-        sp_defense.place(x = 175, y = 290)
+        sp_defense.place(x = 320, y = 230)
 
         sp_defesa = Label(text = "????")
         sp_defesa.configure(font = 'times 12')
-        sp_defesa.place(x = 260, y = 290)
+        sp_defesa.place(x = 400, y = 230)
 
-        habitat = Label(text = "Habitat:")
-        habitat.configure(font = 'times 12 bold')
-        habitat.place(x = 175, y = 380)
-
-        hab = Label(text = "????")
-        hab.configure(font = 'times 12')
-        hab.place(x = 240, y = 380)
-
-        habilidades = Label(text = "Habilidades:")
-        habilidades.configure(font = 'times 12 bold')
-        habilidades.place(x = 175, y = 350)
-
-        habilities = Label(text = "????")
-        habilities.configure(font = 'times 12')
-        habilities.place(x = 260, y = 350)
-
-        speed = Label(text = "Velocidade")
+        #Velocidade
+        speed = Label(text = "Velocidade:")
         speed.configure(font = 'times 12 bold')
-        speed.place(x = 175, y = 320)
+        speed.place(x = 175, y = 260)
 
         velocidade = Label(text = "????")
         velocidade.configure(font = 'times 12')
-        velocidade.place(x = 260, y = 320)
+        velocidade.place(x = 260, y = 260)
 
+        #Habitat
+        habitat = Label(text = "Habitat:")
+        habitat.configure(font = 'times 12 bold')
+        habitat.place(x = 175, y = 290)
 
-        text_box = Canvas()
-        text_box.pack()
-        text_box.configure(relief = 'groove', border = 3)
-        text_box["width"] = 300
-        text_box["height"] = 100
-        text_box.place(x = 175, y = 400)
+        hab = Label(text = "????")
+        hab.configure(font = 'times 12')
+        hab.place(x = 240, y = 290)
+
+        #Habilidades
+        # text_box_habil = Canvas()
+        # text_box_habil.pack()
+        habilidades = Label(text = "Habilidades:")
+        habilidades.configure(font = 'times 12 bold')
+        habilidades.place(x = 175, y = 320)
+
+        habilities = Label(text = "????", wraplength = 200)
+        habilities.configure(font = 'times 12')
+        habilities.place(x = 270, y = 320)
+
+        #Descrição detalhada
+        text_box_desc = Canvas()
+        text_box_desc.pack()
+        text_box_desc.configure(relief = 'groove', border = 3)
+        text_box_desc["width"] = 300
+        text_box_desc["height"] = 100
+        text_box_desc.place(x = 175, y = 400)
         
         info = Label(text = "", wraplength = 280)
         info.pack()
         info.configure(font = 'times 12')
 
-        text_box.create_window(150,50, window = info )
+        text_box_desc.create_window(150,50, window = info )
 
 root.geometry("500x520+10+10") #funçaõ para definir o tamanho que a tela será aberta
 root.resizable(0,0)
