@@ -24,11 +24,11 @@ class Application:
             info["text"] = str(f'{pokemon_lista[index]["Info"]}')
             ataque["text"] = str(f'{pokemon_lista[index]["Ataque"]}')
             defesa["text"] = str(f'{pokemon_lista[index]["Defesa"]}')
-            #velocidade["text"] = str(f'{pokemon_lista[index]["Velocidade"]}')
-            #sp_ataque["text"] = str(f'{pokemon_lista[index]["Sp.Ataque"]}')
-            #sp_defesa["text"] = str(f'{pokemon_lista[index]["Sp.Defesa"]}')
-            #hab["text"] = str(f'{pokemon_lista[index]["Habitat"]}')
-            #habilidades["text"] = str(f'{pokemon_lista[index]["Habilidades"]}')
+            velocidade["text"] = str(f'{pokemon_lista[index]["Velocidade"]}')
+            sp_ataque["text"] = str(f'{pokemon_lista[index]["Sp.Ataque"]}')
+            sp_defesa["text"] = str(f'{pokemon_lista[index]["Sp.Defesa"]}')
+            hab["text"] = str(f'{pokemon_lista[index]["Habitat"]}')
+            habilities["text"] = str(f'{pokemon_lista[index]["Habilidades"]}')
 
 
             #Troca dinamicamente as imagens dos pokemon a cada item selecionado
@@ -84,7 +84,7 @@ class Application:
 
         game_button = Button(text = "MiniGame", command = open_game)
         game_button.pack()
-        game_button.place(x = 310, y = 350)
+        game_button.place(x = 400, y = 370)
 
 
         layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
@@ -197,19 +197,45 @@ class Application:
         defesa.configure(font = 'times 12')
         defesa.place(x = 230, y = 230)
 
+        sp_attack = Label(text = "Sp.Ataque:")
+        sp_attack.configure(font = 'times 12 bold')
+        sp_attack.place(x = 175, y = 260)
 
-        #habitat = Label(text = "Habitat:")
-        #habitat.configure(font = 'times 12 bold')
-        #habitat.place(x = 175, y = 200)
+        sp_ataque = Label(text = "????")
+        sp_ataque.configure(font = 'times 12')
+        sp_ataque.place(x = 260, y = 260)
 
-        #habilidades = Label(text = "Habilidades:")
-        #habilidades.configure(font = 'times 12 bold')
-        #habilidades.place(x = 175, y = 260)
+        sp_defense = Label(text = "Sp.Defesa")
+        sp_defense.configure(font = 'times 12 bold')
+        sp_defense.place(x = 175, y = 290)
 
-        #habilities = Label(text = "????")
-        #habilities.configure(font = 'times 12')
-        #habilities.place(x = 230, y = 230)
+        sp_defesa = Label(text = "????")
+        sp_defesa.configure(font = 'times 12')
+        sp_defesa.place(x = 260, y = 290)
 
+        habitat = Label(text = "Habitat:")
+        habitat.configure(font = 'times 12 bold')
+        habitat.place(x = 175, y = 380)
+
+        hab = Label(text = "????")
+        hab.configure(font = 'times 12')
+        hab.place(x = 240, y = 380)
+
+        habilidades = Label(text = "Habilidades:")
+        habilidades.configure(font = 'times 12 bold')
+        habilidades.place(x = 175, y = 350)
+
+        habilities = Label(text = "????")
+        habilities.configure(font = 'times 12')
+        habilities.place(x = 260, y = 350)
+
+        speed = Label(text = "Velocidade")
+        speed.configure(font = 'times 12 bold')
+        speed.place(x = 175, y = 320)
+
+        velocidade = Label(text = "????")
+        velocidade.configure(font = 'times 12')
+        velocidade.place(x = 260, y = 320)
 
 
         text_box = Canvas()
