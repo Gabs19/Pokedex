@@ -56,7 +56,7 @@ class Application:
             tipo["text"] = str(tipo_pokemon_1) #Substituição do valor no tipo que é apresentado na tela dinamicamente
 
             #dict com tipos e suas cores respectivas
-            type_pokemon  = {'Fogo' : '#ED6D12', 'Água' : '#4578ED', 'Planta' : '#69C23D', 'Voador' : '#8E6FEB', 'Normal' : '#9C9C63', 'Elétrico' : '#F6C913', 'Terra' : '#DBB54D', 'Aço' : '#A0A0C0', 'Inseto' : '#97A51D', 'Rocha' : '#A48F32', 'Gelo' : '#7ECECE', 'Lutador' : '#AE2A24', 'Venenoso' : '#923A92', 'Noturno' : '#644E40', 'Fantasma' : '#655E88', 'Dragão' : '#5E1DF7', 'Psíquico' : '#F73670', 'Fada' : '#e87890'}
+            type_pokemon  = {'Fogo' : '#ED6D12', 'Água' : '#4578ED', 'Planta' : '#69C23D', 'Voador' : '#8E6FEB', 'Normal' : '#9C9C63', 'Elétrico' : '#F6C913', 'Terra' : '#DBB54D', 'Aço' : '#A0A0C0', 'Inseto' : '#97A51D', 'Rocha' : '#A48F32', 'Gelo' : '#7ECECE', 'Lutador' : '#AE2A24', 'Venenoso' : '#923A92', 'Noturno' : '#644E40', 'Fantasma' : '#655E88', 'Dragão' : '#5E1DF7', 'Psíquico' : '#F73670', 'Fada' : '#e87890', 'Recursivo' : '#01ca0c'}
             
             
             #estrututas de decisão que colocam cores respectivamente ao tipo do pokemon
@@ -88,7 +88,7 @@ class Application:
         submenu = Menu(menu) #criação do submenus
 
         menu.add_cascade(label = 'jogo', menu = submenu)#efeito cascata dos submenus existentes
-        submenu.add_command(label = 'How that pokemon',command = open_game)#label do botão que ira direcionar para o jogo
+        submenu.add_command(label = 'Who`s that pokemon',command = open_game)#label do botão que ira direcionar para o jogo
 
         layout_superior = Label(text = '------- Pokedex -------') #primeira label na interface
         layout_superior.configure(bg = 'red') #cor da label superior
@@ -270,6 +270,6 @@ class Application:
         text_box_desc.create_window(150,50, window = info )
 
 root.geometry("500x520+10+10") #funçaõ para definir o tamanho que a tela será aberta
-root.resizable(0,0)
+root.resizable(0,0)#metodo par evitar que a janela seja redimensionada
 Application(root)
 root.mainloop() # mantém a interface ligada rodando o codigo, que só fechado quando precionado o botão fechar

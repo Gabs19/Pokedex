@@ -2455,5 +2455,21 @@ pokemon_lista = [
 'Habitat' : "Qualquer lugar",
 'Habilidades' : "Sincronizar",
 'Descricao' : "Pokémon de Nova Espécie",
-'Info' : "Um Pokémon criado pela recombinação dos genes de Mews. Diz-se que ele tem o coração mais selvagem entre os Pokemons"}
+'Info' : "Um Pokémon criado pela recombinação dos genes de Mews. Diz-se que ele tem o coração mais selvagem entre os Pokemons"},
+
+{'ID' : 152,
+'Sprite' : "Sprites/152.png",
+'Sprite_sombreada' : "Sprites_shadow/152.png",
+'Som' : "Sounds/152 - Fibonniro.wav",
+'Nome' : "Fibonniro", 'Tipo_1' : "Recursivo", 'Tipo_2' : "",
+'Peso' : 100, 'Altura' : 100,
+'Ataque' : 100,
+'Defesa' : 100,
+'Velocidade' : 100,
+'Sp.Ataque' : 100,
+'Sp.Defesa' : 100,
+'Habitat' : "Em nossos corações",
+'Habilidades' : "Imitar o sonic, mandar o recursivo ",
+'Descricao' : "Pokémon recursivo",
+'Info' : "Um Pokémon criado pela recombinação de Fn = Fn -1 + Fn - 2."}
 ]
