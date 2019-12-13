@@ -11,7 +11,7 @@ root.title("POKEDEX")
 class Application:
     
     def __init__(self,master=None):
-    
+        
         #Troca dinamicamente as dados dos pokemon a cada item selecionado
         def pega_POKEMON(listagem_pokemon): #função que executada ao clicar em um elemento da listbox com botão direito do mouse
             pokemon = listagem_pokemon.widget #selecionando o widget da listBox para selecionar um item apenas
@@ -78,19 +78,19 @@ class Application:
                     box_tipo_two["bg"] = type_pokemon[tipo_pokemon_2]
                     tipo_secundario["bg"] = type_pokemon[tipo_pokemon_2]
 
-        # Botão que ao clicar abre o mini jogo   
+        # função que ao clicar abre o mini jogo   
         def open_game():
             os.system('MiniGame.py')
 
-        game_button = Button(text = "MiniGame", command = open_game, height = 45, width = 65)
-        imagem_botao = PhotoImage(file = "MiniGame2.png")
-        game_button.configure(image = imagem_botao)
-        game_button.imagem = imagem_botao
-        game_button.pack()
-        game_button.place(x = 400, y = 120)
+        #dropdown menu para acessar o jogo 
+        menu = Menu(master) #iniciação do menu
+        root.config(menu = menu) #configurando 
+        submenu = Menu(menu) #criação do submenus
 
+        menu.add_cascade(label = 'jogo', menu = submenu)#efeito cascata dos submenus existentes
+        submenu.add_command(label = 'How that pokemon',command = open_game)#label do botão que ira direcionar para o jogo
 
-        layout_superior = Label(root, text = '------- Pokedex -------') #primeira label na interface
+        layout_superior = Label(text = '------- Pokedex -------') #primeira label na interface
         layout_superior.configure(bg = 'red') #cor da label superior
         layout_superior.pack(side = TOP, expand = False, fill = 'x')#posição em relação ao espaço na tela, e quando ela se expande no eixo X
 
